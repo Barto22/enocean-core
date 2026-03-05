@@ -1,0 +1,5 @@
+<map id="Enocean::EnoceanDriver::device_count" name="Enocean::EnoceanDriver::device_count">
+<area shape="rect" id="Node000001" title="Return the number of currently commissioned devices." alt="" coords="5,5,185,45"/>
+<area shape="rect" id="Node000002" href="$classErrorHandler.html#aa170486801afc70fb85e9b39eded6709" title="Constructs an ErrorHandler with a success value." alt="" coords="233,13,428,38"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="186,23,220,23,220,28,186,28"/>
+</map>

@@ -1,0 +1,35 @@
+<map id="boards/zephyr/watchdog/Watchdog.hpp" name="boards/zephyr/watchdog/Watchdog.hpp">
+<area shape="rect" id="Node000001" title="Zephyr RTOS watchdog driver implementation." alt="" coords="212,5,393,45"/>
+<area shape="rect" id="Node000002" title=" " alt="" coords="221,167,288,192"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="299,46,284,94,265,154,260,153,279,93,294,45"/>
+<area shape="rect" id="Node000003" href="$IWatchdog_8hpp.html" title="Platform&#45;agnostic watchdog timer interface for hardware monitoring." alt="" coords="293,93,411,119"/>
+<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="317,44,340,80,335,83,312,47"/>
+<area shape="poly" id="edge4_Node000003_Node000002" title=" " alt="" coords="338,121,283,160,280,156,335,117"/>
+<area shape="rect" id="Node000004" title=" " alt="" coords="312,167,392,192"/>
+<area shape="poly" id="edge3_Node000003_Node000004" title=" " alt="" coords="355,119,355,153,349,153,349,119"/>
+<area shape="rect" id="Node000005" href="$WatchdogError_8hpp.html" title="Error codes for hardware watchdog operations." alt="" coords="416,167,560,192"/>
+<area shape="poly" id="edge5_Node000003_Node000005" title=" " alt="" coords="375,116,455,158,453,163,373,121"/>
+<area shape="rect" id="Node000006" href="$ErrorHandler_8hpp.html" title="A monadic error handling wrapper for safety&#45;critical applications." alt="" coords="377,240,599,265"/>
+<area shape="poly" id="edge6_Node000005_Node000006" title=" " alt="" coords="491,192,491,226,485,226,485,192"/>
+<area shape="rect" id="Node000007" title=" " alt="" coords="164,313,247,339"/>
+<area shape="poly" id="edge7_Node000006_Node000007" title=" " alt="" coords="443,268,261,314,260,308,442,263"/>
+<area shape="rect" id="Node000008" href="$Logger_8hpp.html" title="Platform&#45;agnostic logging bridge to plog." alt="" coords="271,313,417,339"/>
+<area shape="poly" id="edge8_Node000006_Node000008" title=" " alt="" coords="466,268,381,309,379,305,464,263"/>
+<area shape="rect" id="Node000013" title=" " alt="" coords="441,387,565,412"/>
+<area shape="poly" id="edge14_Node000006_Node000013" title=" " alt="" coords="488,266,482,299,483,338,494,373,489,375,477,339,477,298,482,265"/>
+<area shape="rect" id="Node000014" title=" " alt="" coords="492,313,551,339"/>
+<area shape="poly" id="edge15_Node000006_Node000014" title=" " alt="" coords="496,265,513,300,508,302,491,267"/>
+<area shape="rect" id="Node000015" title=" " alt="" coords="575,313,673,339"/>
+<area shape="poly" id="edge16_Node000006_Node000015" title=" " alt="" coords="511,263,591,305,589,309,509,268"/>
+<area shape="rect" id="Node000016" title=" " alt="" coords="697,313,765,339"/>
+<area shape="poly" id="edge17_Node000006_Node000016" title=" " alt="" coords="528,263,684,308,682,313,526,268"/>
+<area shape="rect" id="Node000009" title=" " alt="" coords="5,387,115,412"/>
+<area shape="poly" id="edge9_Node000008_Node000009" title=" " alt="" coords="299,341,120,386,118,381,298,336"/>
+<area shape="rect" id="Node000010" title=" " alt="" coords="139,387,250,412"/>
+<area shape="poly" id="edge10_Node000008_Node000010" title=" " alt="" coords="321,341,233,383,230,378,319,336"/>
+<area shape="rect" id="Node000011" title=" " alt="" coords="275,387,331,412"/>
+<area shape="poly" id="edge11_Node000008_Node000011" title=" " alt="" coords="339,340,319,376,314,373,335,338"/>
+<area shape="rect" id="Node000012" title=" " alt="" coords="355,387,416,412"/>
+<area shape="poly" id="edge12_Node000008_Node000012" title=" " alt="" coords="353,338,374,373,369,376,349,340"/>
+<area shape="poly" id="edge13_Node000008_Node000013" title=" " alt="" coords="371,336,465,379,463,383,368,341"/>
+</map>

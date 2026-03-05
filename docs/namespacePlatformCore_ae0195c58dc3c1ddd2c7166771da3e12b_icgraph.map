@@ -1,0 +1,5 @@
+<map id="PlatformCore::ThreadParamFromPointer" name="PlatformCore::ThreadParamFromPointer">
+<area shape="rect" id="Node000001" title="Converts a pointer to a portable thread parameter payload." alt="" coords="195,5,397,45"/>
+<area shape="rect" id="Node000002" href="$classBle_1_1Scanner.html#ac12eab76b89ef11ded86dda9a62a74b4" title="Start passive BLE scanning." alt="" coords="5,5,147,45"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="181,28,147,28,147,23,181,23"/>
+</map>

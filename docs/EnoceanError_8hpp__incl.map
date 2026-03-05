@@ -1,0 +1,27 @@
+<map id="src/enocean/EnoceanError.hpp" name="src/enocean/EnoceanError.hpp">
+<area shape="rect" id="Node000001" title="EnOcean driver error codes and ErrorTraits specialisation." alt="" coords="109,5,326,31"/>
+<area shape="rect" id="Node000002" title=" " alt="" coords="42,152,139,177"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="209,33,112,143,108,140,205,29"/>
+<area shape="rect" id="Node000003" href="$ErrorHandler_8hpp.html" title="A monadic error handling wrapper for safety&#45;critical applications." alt="" coords="233,79,455,104"/>
+<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="239,28,313,69,310,74,236,33"/>
+<area shape="poly" id="edge12_Node000003_Node000002" title=" " alt="" coords="304,107,146,151,144,146,303,101"/>
+<area shape="rect" id="Node000004" title=" " alt="" coords="164,152,247,177"/>
+<area shape="poly" id="edge3_Node000003_Node000004" title=" " alt="" coords="323,106,241,148,239,143,321,102"/>
+<area shape="rect" id="Node000005" href="$Logger_8hpp.html" title="Platform&#45;agnostic logging bridge to plog." alt="" coords="271,152,417,177"/>
+<area shape="poly" id="edge4_Node000003_Node000005" title=" " alt="" coords="347,104,347,138,341,138,341,104"/>
+<area shape="rect" id="Node000010" title=" " alt="" coords="441,225,565,251"/>
+<area shape="poly" id="edge10_Node000003_Node000010" title=" " alt="" coords="365,102,397,123,431,150,462,182,488,213,484,216,458,185,428,154,394,127,362,106"/>
+<area shape="rect" id="Node000011" title=" " alt="" coords="492,152,551,177"/>
+<area shape="poly" id="edge11_Node000003_Node000011" title=" " alt="" coords="373,102,481,144,479,149,372,106"/>
+<area shape="rect" id="Node000012" title=" " alt="" coords="575,152,643,177"/>
+<area shape="poly" id="edge13_Node000003_Node000012" title=" " alt="" coords="387,101,563,148,561,153,386,107"/>
+<area shape="rect" id="Node000006" title=" " alt="" coords="5,225,115,251"/>
+<area shape="poly" id="edge5_Node000005_Node000006" title=" " alt="" coords="299,180,120,225,118,219,298,175"/>
+<area shape="rect" id="Node000007" title=" " alt="" coords="139,225,250,251"/>
+<area shape="poly" id="edge6_Node000005_Node000007" title=" " alt="" coords="321,180,233,222,230,217,319,175"/>
+<area shape="rect" id="Node000008" title=" " alt="" coords="275,225,331,251"/>
+<area shape="poly" id="edge7_Node000005_Node000008" title=" " alt="" coords="339,179,319,215,314,212,335,176"/>
+<area shape="rect" id="Node000009" title=" " alt="" coords="355,225,416,251"/>
+<area shape="poly" id="edge8_Node000005_Node000009" title=" " alt="" coords="353,176,374,212,369,215,349,179"/>
+<area shape="poly" id="edge9_Node000005_Node000010" title=" " alt="" coords="371,175,465,217,463,222,368,180"/>
+</map>

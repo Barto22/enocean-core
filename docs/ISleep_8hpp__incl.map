@@ -1,0 +1,9 @@
+<map id="platform/common/isleep/ISleep.hpp" name="platform/common/isleep/ISleep.hpp">
+<area shape="rect" id="Node000001" title="Platform&#45;agnostic timing/sleep interface for cross&#45;platform projects." alt="" coords="51,5,234,45"/>
+<area shape="rect" id="Node000002" title=" " alt="" coords="5,93,85,119"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="121,48,72,87,69,82,117,43"/>
+<area shape="rect" id="Node000003" title=" " alt="" coords="109,93,176,119"/>
+<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="145,46,145,79,140,79,140,46"/>
+<area shape="rect" id="Node000004" title=" " alt="" coords="201,93,293,119"/>
+<area shape="poly" id="edge3_Node000001_Node000004" title=" " alt="" coords="169,43,222,83,219,87,166,48"/>
+</map>

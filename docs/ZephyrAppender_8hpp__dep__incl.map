@@ -1,0 +1,7 @@
+<map id="platform/zephyr_core/logging/ZephyrAppender.hpp" name="platform/zephyr_core/logging/ZephyrAppender.hpp">
+<area shape="rect" id="Node000001" title="plog appender that routes log records to the Zephyr logging subsystem." alt="" coords="110,5,323,45"/>
+<area shape="rect" id="Node000002" href="$ZephyrAppender_8cpp.html" title="plog&#45;to&#45;Zephyr logging bridge implementation." alt="" coords="5,93,217,133"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="185,56,136,95,133,91,181,52"/>
+<area shape="rect" id="Node000003" href="$zephyr__main_8cpp_source.html" title=" " alt="" coords="241,93,403,133"/>
+<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="252,52,300,91,297,95,249,56"/>
+</map>

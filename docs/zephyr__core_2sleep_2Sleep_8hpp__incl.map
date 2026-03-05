@@ -1,0 +1,11 @@
+<map id="platform/zephyr_core/sleep/Sleep.hpp" name="platform/zephyr_core/sleep/Sleep.hpp">
+<area shape="rect" id="Node000001" title="Zephyr sleep implementation for platform timing abstraction." alt="" coords="62,5,223,45"/>
+<area shape="rect" id="Node000002" href="$ISleep_8hpp.html" title="Platform&#45;agnostic timing/sleep interface for cross&#45;platform projects." alt="" coords="97,93,188,119"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="145,46,145,79,140,79,140,46"/>
+<area shape="rect" id="Node000003" title=" " alt="" coords="5,167,85,192"/>
+<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="129,121,74,160,71,156,125,117"/>
+<area shape="rect" id="Node000004" title=" " alt="" coords="109,167,176,192"/>
+<area shape="poly" id="edge3_Node000002_Node000004" title=" " alt="" coords="145,119,145,153,140,153,140,119"/>
+<area shape="rect" id="Node000005" title=" " alt="" coords="201,167,293,192"/>
+<area shape="poly" id="edge4_Node000002_Node000005" title=" " alt="" coords="161,116,220,156,217,161,158,121"/>
+</map>

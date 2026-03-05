@@ -1,0 +1,10 @@
+<map id="ErrorHandler::error" name="ErrorHandler::error">
+<area shape="rect" id="Node000001" title="Accesses the contained error." alt="" coords="248,55,391,80"/>
+<area shape="poly" id="edge1_Node000001_Node000001" title=" " alt="" coords="358,45,347,37,319,33,296,35,284,40,282,46,288,53,284,56,276,46,280,36,295,30,319,28,349,32,361,41"/>
+<area shape="rect" id="Node000002" href="$classErrorHandler.html#ad6f0eacb1fa5545d192f15e871346725" title="Constructs an ErrorHandler with an error and logs it." alt="" coords="5,5,200,31"/>
+<area shape="poly" id="edge2_Node000001_Node000002" title=" " alt="" coords="249,54,159,33,160,28,250,49"/>
+<area shape="rect" id="Node000003" href="$classErrorHandler.html#a0382bf44bb80d91ed9c5e13fcda962f6" title="Constructs an ErrorHandler from std::unexpected and logs it." alt="" coords="5,55,200,80"/>
+<area shape="poly" id="edge3_Node000001_Node000003" title=" " alt="" coords="234,70,200,70,200,65,234,65"/>
+<area shape="rect" id="Node000004" href="$classBoards_1_1Led_1_1LedBlinker.html#a59a9f6066dc607014849300ad4fca48e" title="Initialize the LED hardware or abstraction." alt="" coords="15,105,190,145"/>
+<area shape="poly" id="edge4_Node000001_Node000004" title=" " alt="" coords="258,86,179,107,178,102,257,81"/>
+</map>

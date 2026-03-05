@@ -1,0 +1,7 @@
+<map id="PlatformCore::MessageQueue::send_impl" name="PlatformCore::MessageQueue::send_impl">
+<area shape="rect" id="Node000001" title="Sends a message to the queue with a specified timeout." alt="" coords="5,27,221,67"/>
+<area shape="rect" id="Node000002" href="$classErrorHandler.html#aa170486801afc70fb85e9b39eded6709" title="Constructs an ErrorHandler with a success value." alt="" coords="269,5,464,31"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="221,32,255,28,256,33,222,37"/>
+<area shape="rect" id="Node000003" href="$namespacePlatformCore.html#a33c8261757e90c8d7dcaf3827b753f23" title="Maps Zephyr error codes to MessageQueueError enum values." alt="" coords="285,55,448,95"/>
+<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="222,57,272,62,271,67,221,62"/>
+</map>

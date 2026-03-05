@@ -1,0 +1,7 @@
+var searchData=
+[
+  ['unit_20tests_0',['Run POSIX Unit Tests',['../md_README.html#autotoc_md22',1,'']]],
+  ['unknown_1',['unknown',['../namespaceBoards_1_1Gpio.html#a347cd651bcfc10eaebba0918ff715eb7a88183b946cc5f0e8c96b2e66e1c74a7e',1,'Boards::Gpio::Unknown'],['../namespacePlatformCore.html#a94a072d5b3e3e72e0572f28c1b4d77dea88183b946cc5f0e8c96b2e66e1c74a7e',1,'PlatformCore::Unknown'],['../namespacePlatformCore.html#a9bad0878b7392b888ac325dd33e01f5aa88183b946cc5f0e8c96b2e66e1c74a7e',1,'PlatformCore::Unknown'],['../namespacePlatformCore.html#a3cdc5630cc69c2308d243a595075aae8a88183b946cc5f0e8c96b2e66e1c74a7e',1,'PlatformCore::Unknown'],['../namespacePlatformCore.html#ae1ec5f50e9fe813cc42702cea284f0e3a88183b946cc5f0e8c96b2e66e1c74a7e',1,'PlatformCore::Unknown'],['../EnoceanError_8hpp.html#a7d566396a7b1fef732085f9e7cb9c74fa88183b946cc5f0e8c96b2e66e1c74a7e',1,'UnknownEnocean'],['../EnoceanTypes_8hpp.html#a63bf245e308aa1e4ac2ebd3fe347824aa88183b946cc5f0e8c96b2e66e1c74a7e',1,'UnknownEnocean']]],
+  ['unlock_2',['unlock',['../classPlatformCore_1_1IMutex.html#a7245763de00b7f2cdf379cc8c68a9b00',1,'PlatformCore::IMutex']]],
+  ['use_20cases_3',['Example Use Cases',['../md_README.html#autotoc_md37',1,'']]]
+];

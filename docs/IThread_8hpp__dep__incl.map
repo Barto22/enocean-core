@@ -1,0 +1,19 @@
+<map id="platform/common/ithread/IThread.hpp" name="platform/common/ithread/IThread.hpp">
+<area shape="rect" id="Node000001" title="Platform&#45;agnostic thread abstraction interfaces for cross&#45;platform projects." alt="" coords="557,5,746,45"/>
+<area shape="rect" id="Node000002" href="$AppEntry_8hpp.html" title="Application entry point thread runner for platform&#45;agnostic logic." alt="" coords="283,101,465,126"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="578,52,412,103,410,98,577,47"/>
+<area shape="rect" id="Node000006" href="$posix__core_2thread_2Thread_8hpp.html" title="POSIX thread implementation for platform thread abstraction." alt="" coords="575,93,727,133"/>
+<area shape="poly" id="edge5_Node000001_Node000006" title=" " alt="" coords="654,59,654,93,649,93,649,59"/>
+<area shape="rect" id="Node000008" href="$zephyr__core_2thread_2Thread_8hpp.html" title="Zephyr thread implementation for platform thread abstraction." alt="" coords="752,93,913,133"/>
+<area shape="poly" id="edge7_Node000001_Node000008" title=" " alt="" coords="704,49,794,91,792,96,702,54"/>
+<area shape="rect" id="Node000003" href="$AppEntry_8cpp_source.html" title=" " alt="" coords="5,189,188,214"/>
+<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="325,133,135,191,133,186,323,128"/>
+<area shape="rect" id="Node000004" href="$posix__main_8cpp_source.html" title=" " alt="" coords="213,181,365,221"/>
+<area shape="poly" id="edge3_Node000002_Node000004" title=" " alt="" coords="355,138,310,183,306,179,351,134"/>
+<area shape="rect" id="Node000005" href="$zephyr__main_8cpp_source.html" title=" " alt="" coords="389,181,551,221"/>
+<area shape="poly" id="edge4_Node000002_Node000005" title=" " alt="" coords="399,133,451,179,447,183,395,137"/>
+<area shape="rect" id="Node000007" href="$posix__core_2thread_2Thread_8cpp_source.html" title=" " alt="" coords="575,181,727,221"/>
+<area shape="poly" id="edge6_Node000006_Node000007" title=" " alt="" coords="654,147,654,181,649,181,649,147"/>
+<area shape="rect" id="Node000009" href="$zephyr__core_2thread_2Thread_8cpp_source.html" title=" " alt="" coords="752,181,913,221"/>
+<area shape="poly" id="edge8_Node000008_Node000009" title=" " alt="" coords="835,147,835,181,830,181,830,147"/>
+</map>

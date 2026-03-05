@@ -1,0 +1,5 @@
+<map id="PlatformCore::ThreadParamFromPointer" name="PlatformCore::ThreadParamFromPointer">
+<area shape="rect" id="Node000001" title="Converts a pointer to a portable thread parameter payload." alt="" coords="5,5,208,45"/>
+<area shape="rect" id="Node000002" href="$classErrorHandler.html#aa170486801afc70fb85e9b39eded6709" title="Constructs an ErrorHandler with a success value." alt="" coords="256,13,451,38"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="208,23,242,23,242,28,208,28"/>
+</map>

@@ -1,0 +1,10 @@
+<map id="ErrorHandler::ErrorHandler" name="ErrorHandler::ErrorHandler">
+<area shape="rect" id="Node000001" title="Constructs an ErrorHandler with an error and logs it." alt="" coords="5,79,200,104"/>
+<area shape="rect" id="Node000002" href="$classErrorHandler.html#a0830171d84d3b2627bd600d93c6bfb9c" title="Accesses the contained error." alt="" coords="274,29,417,55"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="165,76,268,55,269,60,166,81"/>
+<area shape="rect" id="Node000003" href="$classErrorHandler.html#aa170486801afc70fb85e9b39eded6709" title="Constructs an ErrorHandler with a success value." alt="" coords="248,79,443,104"/>
+<area shape="poly" id="edge3_Node000001_Node000003" title=" " alt="" coords="200,89,234,89,234,94,200,94"/>
+<area shape="rect" id="Node000004" href="$structErrorTraits.html#a95569764722b338ad88b30a024c41de5" title="Returns a human&#45;readable name for the given error value." alt="" coords="279,128,412,153"/>
+<area shape="poly" id="edge4_Node000001_Node000004" title=" " alt="" coords="166,101,269,123,268,128,165,107"/>
+<area shape="poly" id="edge2_Node000002_Node000002" title=" " alt="" coords="306,31,297,21,302,11,318,5,345,3,380,7,389,11,393,17,389,20,386,15,378,12,345,8,319,10,305,15,303,20,310,27"/>
+</map>

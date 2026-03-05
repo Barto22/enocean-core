@@ -1,0 +1,9 @@
+<map id="PlatformCore::errno_to_error" name="PlatformCore::errno_to_error">
+<area shape="rect" id="Node000001" title="Converts errno value to MessageQueueError enum." alt="" coords="269,69,420,109"/>
+<area shape="rect" id="Node000002" href="$classPlatformCore_1_1MessageQueue.html#a7872a27a3329c1c7cc12ba39e2da3e52" title="Initializes the POSIX message queue with specified parameters." alt="" coords="5,5,221,45"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="258,68,185,48,187,43,259,63"/>
+<area shape="rect" id="Node000003" href="$classPlatformCore_1_1MessageQueue.html#ad6fe8e5e8a1bd59a5624afc6f387b3d6" title="Receives a message from the queue with an optional timeout." alt="" coords="5,69,221,109"/>
+<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="256,92,221,92,221,87,256,87"/>
+<area shape="rect" id="Node000004" href="$classPlatformCore_1_1MessageQueue.html#a7be514a02795226663e15358c482db9a" title="Sends a message to the queue with an optional timeout." alt="" coords="5,133,221,173"/>
+<area shape="poly" id="edge3_Node000001_Node000004" title=" " alt="" coords="259,116,187,136,185,131,258,110"/>
+</map>

@@ -1,0 +1,7 @@
+<map id="PlatformCore::MessageQueue&lt; T &gt;" name="PlatformCore::MessageQueue&lt; T &gt;">
+<area shape="rect" id="Node000001" title="POSIX implementation of a type&#45;safe message queue." alt="" coords="273,71,528,97"/>
+<area shape="rect" id="Node000002" href="$classPlatformCore_1_1IMessageQueue.html" title=" " alt="" coords="5,5,225,75"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="239,56,318,69,317,74,239,62"/>
+<area shape="rect" id="Node000003" href="$classPlatformCore_1_1IMessageQueue.html" title=" " alt="" coords="5,99,225,154"/>
+<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="238,106,315,94,315,99,239,111"/>
+</map>

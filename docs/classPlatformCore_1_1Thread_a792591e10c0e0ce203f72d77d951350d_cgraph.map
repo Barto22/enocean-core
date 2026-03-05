@@ -1,0 +1,7 @@
+<map id="PlatformCore::Thread::~Thread" name="PlatformCore::Thread::~Thread">
+<area shape="rect" id="Node000001" title="Virtual destructor for safe polymorphic deletion." alt="" coords="5,41,167,81"/>
+<area shape="rect" id="Node000002" href="$classPlatformCore_1_1IThread.html#a70466fe6e9045814e32737ac8f799e32" title="Destroy the thread and release resources." alt="" coords="215,5,416,45"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="167,46,201,41,202,46,168,51"/>
+<area shape="rect" id="Node000003" href="$classPlatformCore_1_1IThread.html#ad7d0ef9dc74035ab4da779b992c9da24" title="Check if the thread is currently active." alt="" coords="233,70,398,125"/>
+<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="168,71,219,80,218,85,167,77"/>
+</map>

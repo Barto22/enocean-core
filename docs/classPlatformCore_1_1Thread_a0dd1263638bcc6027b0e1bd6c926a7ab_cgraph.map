@@ -1,0 +1,9 @@
+<map id="PlatformCore::Thread::os_create" name="PlatformCore::Thread::os_create">
+<area shape="rect" id="Node000001" title="Create and start the POSIX thread." alt="" coords="5,55,167,95"/>
+<area shape="rect" id="Node000002" href="$classErrorHandler.html#aa170486801afc70fb85e9b39eded6709" title="Constructs an ErrorHandler with a success value." alt="" coords="219,5,413,31"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="166,53,250,31,252,37,167,58"/>
+<area shape="rect" id="Node000003" href="$namespacePlatformCore.html#af557b717115dabaf6164dbd94ae56777" title="Converts stored thread parameter payload back to a pointer." alt="" coords="215,55,417,95"/>
+<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="167,73,201,73,201,78,167,78"/>
+<area shape="rect" id="Node000004" href="$classErrorHandler.html#a80e0be0e7c44a50d7f80c5f36b2ba931" title="Accesses the contained value (lvalue reference)." alt="" coords="242,120,390,145"/>
+<area shape="poly" id="edge3_Node000001_Node000004" title=" " alt="" coords="167,93,252,114,250,119,166,98"/>
+</map>

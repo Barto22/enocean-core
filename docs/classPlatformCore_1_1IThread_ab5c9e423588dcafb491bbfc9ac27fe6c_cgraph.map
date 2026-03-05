@@ -1,0 +1,9 @@
+<map id="PlatformCore::IThread::create" name="PlatformCore::IThread::create">
+<area shape="rect" id="Node000001" title="Create and start the thread without params." alt="" coords="5,37,171,77"/>
+<area shape="rect" id="Node000002" href="$classPlatformCore_1_1IThread.html#a5e89dbac72446734605e8a9245c95873" title="Set both stack information and thread priority." alt="" coords="219,37,384,77"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="171,55,205,55,205,60,171,60"/>
+<area shape="rect" id="Node000003" href="$classPlatformCore_1_1IThread.html#aa8868ae62132e0aeb9dddc3f998f4a31" title="Set the stack information." alt="" coords="432,5,597,45"/>
+<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="384,42,418,37,419,42,385,48"/>
+<area shape="rect" id="Node000004" href="$classPlatformCore_1_1IThread.html#a5b75bb1f6e1515a816aa6f12a82cc43f" title="Set the thread priority." alt="" coords="432,69,597,109"/>
+<area shape="poly" id="edge3_Node000002_Node000004" title=" " alt="" coords="385,67,419,72,418,78,384,72"/>
+</map>

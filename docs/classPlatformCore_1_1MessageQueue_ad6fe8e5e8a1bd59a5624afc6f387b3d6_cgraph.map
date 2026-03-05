@@ -1,0 +1,7 @@
+<map id="PlatformCore::MessageQueue::receive_impl" name="PlatformCore::MessageQueue::receive_impl">
+<area shape="rect" id="Node000001" title="Receives a message from the queue with an optional timeout." alt="" coords="5,35,221,75"/>
+<area shape="rect" id="Node000002" href="$namespacePlatformCore.html#a9688120da74046aec1dee1a5f5a14b17" title="Converts errno value to MessageQueueError enum." alt="" coords="291,5,442,45"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="221,40,277,33,278,38,222,45"/>
+<area shape="rect" id="Node000003" href="$classErrorHandler.html#aa170486801afc70fb85e9b39eded6709" title="Constructs an ErrorHandler with a success value." alt="" coords="269,70,464,95"/>
+<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="222,64,256,68,255,73,221,69"/>
+</map>

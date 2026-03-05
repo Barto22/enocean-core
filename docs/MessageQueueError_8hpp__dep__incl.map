@@ -1,0 +1,12 @@
+<map id="platform/common/imessage_queue/MessageQueueError.hpp" name="platform/common/imessage_queue/MessageQueueError.hpp">
+<area shape="rect" id="Node000001" title="Error handling types for message queue operations." alt="" coords="310,5,541,45"/>
+<area shape="rect" id="Node000002" href="$IMessageQueue_8hpp.html" title="CRTP&#45;based message queue interface for platform&#45;agnostic message passing." alt="" coords="181,93,387,133"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="384,55,316,96,314,91,381,50"/>
+<area shape="rect" id="Node000004" href="$zephyr__core_2message__queue_2MessageQueue_8hpp.html" title="Zephyr RTOS implementation of the message queue interface using Zephyr message queues." alt="" coords="293,181,557,221"/>
+<area shape="poly" id="edge4_Node000001_Node000004" title=" " alt="" coords="428,59,428,181,423,181,423,59"/>
+<area shape="rect" id="Node000005" href="$MessageQueueTests_8cpp_source.html" title=" " alt="" coords="463,93,681,133"/>
+<area shape="poly" id="edge5_Node000001_Node000005" title=" " alt="" coords="471,50,541,91,539,96,468,55"/>
+<area shape="rect" id="Node000003" href="$posix__core_2message__queue_2MessageQueue_8hpp.html" title="POSIX implementation of the message queue interface using POSIX message queues." alt="" coords="5,181,269,221"/>
+<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="241,143,171,184,168,179,238,138"/>
+<area shape="poly" id="edge3_Node000002_Node000004" title=" " alt="" coords="328,138,396,179,393,184,325,143"/>
+</map>

@@ -1,0 +1,6 @@
+<map id="Ble::Scanner" name="Ble::Scanner">
+<area shape="rect" id="Node000001" title="BlueZ HCI BLE passive scanner." alt="" coords="33,79,136,104"/>
+<area shape="rect" id="Node000002" href="$classBle_1_1IBle.html" title=" " alt="" coords="5,5,164,31"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="79,44,80,78,75,79,73,45"/>
+<area shape="poly" id="edge2_Node000001_Node000002" title=" " alt="" coords="96,45,94,79,89,78,91,44"/>
+</map>

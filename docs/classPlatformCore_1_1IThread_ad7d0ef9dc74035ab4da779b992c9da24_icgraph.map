@@ -1,0 +1,5 @@
+<map id="PlatformCore::IThread::is_active" name="PlatformCore::IThread::is_active">
+<area shape="rect" id="Node000001" title="Check if the thread is currently active." alt="" coords="219,5,384,45"/>
+<area shape="rect" id="Node000002" href="$classPlatformCore_1_1IThread.html#a5a6511561888318169b72e13158e6e8a" title="Set the thread active state." alt="" coords="5,5,171,45"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="205,28,171,28,171,23,205,23"/>
+</map>

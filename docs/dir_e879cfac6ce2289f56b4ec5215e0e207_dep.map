@@ -1,0 +1,36 @@
+<map id="platform/posix_core" name="platform/posix_core">
+<area shape="rect" id="node1" href="dir_e4413fdd10501f0f4b65f615de72d05f.html" title="common" alt="" coords="390,136,469,161"/>
+<area shape="rect" id="node10" href="dir_d44c64559bbebec7f509842c48db8b23.html" title="include" alt="" coords="847,136,916,161"/>
+<area shape="poly" id="edge1" href="dir_000037_000019.html" alt="" coords="788,86,853,126,850,131,785,90"/>
+<area shape="rect" id="edge1-headlabel" href="dir_000037_000019.html" title="3" alt="" coords="847,112,857,126"/>
+<area shape="rect" id="node11" href="dir_d75c23162a2652451dce46d2e7e8aead.html" title="application" alt="" coords="941,136,1035,161"/>
+<area shape="poly" id="edge2" href="dir_000037_000000.html" alt="" coords="804,85,940,129,939,134,803,91"/>
+<area shape="rect" id="edge2-headlabel" href="dir_000037_000000.html" title="1" alt="" coords="933,115,942,130"/>
+<area shape="rect" id="node3" href="dir_4abb9ee2038463af64c232a4af3bdc7c.html" title="ble" alt="" coords="655,63,697,88"/>
+<area shape="poly" id="edge4" href="dir_000001_000005.html" alt="" coords="662,90,644,101,560,128,483,143,482,138,559,123,642,96,660,86"/>
+<area shape="rect" id="edge4-headlabel" href="dir_000001_000005.html" title="1" alt="" coords="483,141,493,156"/>
+<area shape="poly" id="edge3" href="dir_000001_000019.html" alt="" coords="693,86,712,96,834,131,832,136,710,101,691,91"/>
+<area shape="rect" id="edge3-headlabel" href="dir_000001_000019.html" title="1" alt="" coords="827,117,836,132"/>
+<area shape="rect" id="node4" href="dir_2a4f0cec82f86b5742f9269d6dd67b87.html" title="crypto" alt="" coords="567,63,630,88"/>
+<area shape="poly" id="edge6" href="dir_000006_000005.html" alt="" coords="579,90,557,101,476,134,474,129,555,96,576,86"/>
+<area shape="rect" id="edge6-headlabel" href="dir_000006_000005.html" title="1" alt="" coords="477,130,487,145"/>
+<area shape="poly" id="edge5" href="dir_000006_000019.html" alt="" coords="620,86,644,96,696,111,738,117,781,122,834,132,833,137,780,128,737,123,695,116,642,101,618,91"/>
+<area shape="rect" id="edge5-headlabel" href="dir_000006_000019.html" title="1" alt="" coords="826,118,835,132"/>
+<area shape="rect" id="node5" href="dir_e4a179a6b93436b9a7fecdfb22db24fe.html" title="message_queue" alt="" coords="245,63,373,88"/>
+<area shape="poly" id="edge7" href="dir_000029_000005.html" alt="" coords="330,86,399,126,396,131,327,90"/>
+<area shape="rect" id="edge7-headlabel" href="dir_000029_000005.html" title="1" alt="" coords="394,112,403,127"/>
+<area shape="rect" id="node6" href="dir_049735549a61d7917fd820feeab4bff5.html" title="mutex" alt="" coords="157,63,221,88"/>
+<area shape="poly" id="edge8" href="dir_000032_000005.html" alt="" coords="211,86,234,96,308,119,377,135,376,140,307,124,232,101,209,91"/>
+<area shape="rect" id="edge8-headlabel" href="dir_000032_000005.html" title="1" alt="" coords="369,121,378,136"/>
+<area shape="rect" id="node7" href="dir_56c20e85d078155b2b92b461f8eac12f.html" title="semaphore" alt="" coords="38,63,133,88"/>
+<area shape="poly" id="edge9" href="dir_000039_000005.html" alt="" coords="114,86,146,96,269,122,377,139,376,144,269,128,145,101,112,91"/>
+<area shape="rect" id="edge9-headlabel" href="dir_000039_000005.html" title="1" alt="" coords="368,125,378,140"/>
+<area shape="rect" id="node8" href="dir_649949ac56aff07a89336abd6db17fa2.html" title="sleep" alt="" coords="486,63,543,88"/>
+<area shape="poly" id="edge10" href="dir_000042_000005.html" alt="" coords="503,90,455,129,452,125,499,86"/>
+<area shape="rect" id="edge10-headlabel" href="dir_000042_000005.html" title="1" alt="" coords="458,123,467,138"/>
+<area shape="rect" id="node9" href="dir_e17b5330e8f06d16c6e618a38e7bc321.html" title="thread" alt="" coords="397,63,461,88"/>
+<area shape="poly" id="edge11" href="dir_000047_000005.html" alt="" coords="432,88,432,122,427,122,427,88"/>
+<area shape="rect" id="edge11-headlabel" href="dir_000047_000005.html" title="1" alt="" coords="433,110,442,125"/>
+<area shape="rect" id="clust2" href="dir_e879cfac6ce2289f56b4ec5215e0e207.html" alt="" coords="27,52,825,99"/>
+<area shape="rect" id="clust1" href="dir_c5a52a81292cf9a5167198f4f346d6d9.html" title="platform" alt="" coords="16,16,836,172"/>
+</map>

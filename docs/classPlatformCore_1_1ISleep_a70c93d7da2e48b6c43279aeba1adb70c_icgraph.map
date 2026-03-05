@@ -1,0 +1,5 @@
+<map id="PlatformCore::ISleep::sleep_ms" name="PlatformCore::ISleep::sleep_ms">
+<area shape="rect" id="Node000001" title="Suspends the current thread for the specified duration in milliseconds." alt="" coords="232,5,388,45"/>
+<area shape="rect" id="Node000002" href="$classApp_1_1AppEntry.html#ae3fc0793223342b8252f6a65646b3f35" title="Run the main application logic." alt="" coords="5,13,184,38"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="218,28,184,28,184,23,218,23"/>
+</map>

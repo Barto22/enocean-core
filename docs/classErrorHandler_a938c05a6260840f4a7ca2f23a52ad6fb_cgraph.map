@@ -1,0 +1,5 @@
+<map id="ErrorHandler::and_then" name="ErrorHandler::and_then">
+<area shape="rect" id="Node000001" title="Applies a function if value exists, propagates error otherwise (const lvalue)." alt="" coords="5,5,177,31"/>
+<area shape="rect" id="Node000002" href="$classErrorHandler.html#aa170486801afc70fb85e9b39eded6709" title="Constructs an ErrorHandler with a success value." alt="" coords="225,5,420,31"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="178,15,211,15,211,21,178,21"/>
+</map>

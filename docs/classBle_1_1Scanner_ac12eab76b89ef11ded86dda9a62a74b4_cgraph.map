@@ -1,0 +1,16 @@
+<map id="Ble::Scanner::start_scan_impl" name="Ble::Scanner::start_scan_impl">
+<area shape="rect" id="Node000001" title="Start passive BLE scanning." alt="" coords="5,95,147,135"/>
+<area shape="rect" id="Node000002" href="$classPlatformCore_1_1IThread.html#a9f37e11f4710ad1e1823d1837439ac3b" title="Create and start the thread." alt="" coords="213,37,379,77"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="146,94,205,78,206,83,147,99"/>
+<area shape="rect" id="Node000006" href="$classErrorHandler.html#aa170486801afc70fb85e9b39eded6709" title="Constructs an ErrorHandler with a success value." alt="" coords="445,130,640,155"/>
+<area shape="poly" id="edge5_Node000001_Node000006" title=" " alt="" coords="147,116,432,133,432,139,147,122"/>
+<area shape="rect" id="Node000007" href="$namespacePlatformCore.html#ae0195c58dc3c1ddd2c7166771da3e12b" title="Converts a pointer to a portable thread parameter payload." alt="" coords="195,152,397,192"/>
+<area shape="poly" id="edge6_Node000001_Node000007" title=" " alt="" coords="147,130,206,146,205,151,146,136"/>
+<area shape="rect" id="Node000003" href="$classPlatformCore_1_1IThread.html#a5e89dbac72446734605e8a9245c95873" title="Set both stack information and thread priority." alt="" coords="460,37,625,77"/>
+<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="379,55,446,55,446,60,379,60"/>
+<area shape="rect" id="Node000004" href="$classPlatformCore_1_1IThread.html#aa8868ae62132e0aeb9dddc3f998f4a31" title="Set the stack information." alt="" coords="688,5,853,45"/>
+<area shape="poly" id="edge3_Node000003_Node000004" title=" " alt="" coords="625,43,674,36,675,41,626,48"/>
+<area shape="rect" id="Node000005" href="$classPlatformCore_1_1IThread.html#a5b75bb1f6e1515a816aa6f12a82cc43f" title="Set the thread priority." alt="" coords="688,69,853,109"/>
+<area shape="poly" id="edge4_Node000003_Node000005" title=" " alt="" coords="626,66,675,73,674,78,625,72"/>
+<area shape="poly" id="edge7_Node000007_Node000006" title=" " alt="" coords="397,157,431,153,432,159,398,163"/>
+</map>

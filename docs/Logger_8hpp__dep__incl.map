@@ -1,0 +1,140 @@
+<map id="include/logging/Logger.hpp" name="include/logging/Logger.hpp">
+<area shape="rect" id="Node000001" title="Platform&#45;agnostic logging bridge to plog." alt="" coords="1987,5,2183,31"/>
+<area shape="rect" id="Node000002" href="$AppEntry_8cpp_source.html" title=" " alt="" coords="679,438,861,463"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="1973,23,1573,27,1040,37,547,54,368,66,262,81,190,95,126,107,101,116,82,132,69,154,65,186,65,276,63,335,69,358,88,381,101,388,123,394,188,404,370,417,555,423,666,428,713,435,712,441,666,433,555,428,370,422,188,410,122,399,99,393,84,385,64,361,58,336,59,276,59,185,64,152,78,128,98,112,125,101,189,90,262,76,367,61,547,49,1040,31,1573,21,1973,17"/>
+<area shape="rect" id="Node000003" href="$posix_2gpio_2Gpio_8cpp_source.html" title=" " alt="" coords="5,438,204,463"/>
+<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="1973,23,1518,27,909,36,361,54,177,66,120,73,90,81,56,101,33,122,19,149,14,186,14,276,16,301,23,326,45,371,72,410,95,436,91,440,68,413,41,374,18,327,11,302,9,276,9,185,14,147,28,119,53,96,88,76,119,68,177,61,361,49,909,31,1518,21,1973,17"/>
+<area shape="rect" id="Node000004" href="$posix_2led_2Led_8cpp_source.html" title=" " alt="" coords="275,86,457,111"/>
+<area shape="poly" id="edge3_Node000001_Node000004" title=" " alt="" coords="1973,21,1707,22,1336,29,910,48,691,62,477,81,425,89,425,83,476,76,691,57,910,42,1336,24,1707,17,1973,16"/>
+<area shape="rect" id="Node000005" href="$ErrorHandler_8hpp.html" title="A monadic error handling wrapper for safety&#45;critical applications." alt="" coords="1559,79,1719,119"/>
+<area shape="poly" id="edge4_Node000001_Node000005" title=" " alt="" coords="2007,36,1720,86,1719,81,2006,30"/>
+<area shape="rect" id="Node000017" href="$zephyr__main_8cpp_source.html" title=" " alt="" coords="3219,431,3380,471"/>
+<area shape="poly" id="edge74_Node000001_Node000017" title=" " alt="" coords="2197,19,2526,30,2729,41,2935,57,3125,78,3283,106,3345,122,3391,141,3422,161,3430,173,3433,185,3433,276,3430,333,3422,357,3405,384,3377,412,3345,433,3342,428,3374,408,3401,381,3417,355,3425,332,3427,276,3427,186,3425,175,3418,165,3389,145,3343,127,3282,111,3125,84,2934,62,2729,47,2525,36,2197,24"/>
+<area shape="rect" id="Node000021" href="$posix__core_2ble_2Ble_8cpp.html" title="POSIX/BlueZ BLE passive scanner implementation." alt="" coords="1271,431,1423,471"/>
+<area shape="poly" id="edge69_Node000001_Node000021" title=" " alt="" coords="2129,33,2222,75,2274,104,2323,137,2363,173,2389,212,2395,233,2395,254,2389,275,2376,296,2354,318,2331,330,2307,334,2282,333,2230,331,2202,335,2173,345,2158,355,2148,365,2138,376,2122,385,2057,402,1975,413,1881,419,1781,422,1586,425,1503,427,1436,433,1424,435,1423,430,1435,428,1502,422,1586,419,1781,417,1881,414,1975,408,2056,397,2120,380,2135,372,2144,362,2155,351,2170,340,2201,329,2230,326,2282,328,2306,328,2329,325,2351,314,2372,293,2384,273,2390,253,2390,234,2384,214,2359,177,2320,141,2272,109,2220,80,2127,38"/>
+<area shape="rect" id="Node000023" href="$zephyr__core_2ble_2Ble_8cpp.html" title="Zephyr BLE passive scanner implementation." alt="" coords="493,431,655,471"/>
+<area shape="poly" id="edge72_Node000001_Node000023" title=" " alt="" coords="1973,24,1729,29,1423,40,1127,57,1005,68,912,81,784,100,729,108,680,119,635,137,595,163,557,202,523,256,515,278,513,302,515,327,522,351,541,395,562,429,558,432,537,398,517,352,510,328,507,302,510,277,518,253,553,199,591,159,633,132,678,114,728,103,783,95,911,76,1004,63,1126,52,1423,35,1729,24,1973,18"/>
+<area shape="rect" id="Node000027" href="$posix__core_2crypto_2Crypto_8cpp.html" title="OpenSSL AES&#45;128&#45;CCM&#45;4 implementation." alt="" coords="3843,431,3995,471"/>
+<area shape="poly" id="edge70_Node000001_Node000027" title=" " alt="" coords="2196,17,2514,20,2932,28,3345,46,3515,59,3645,76,3698,82,3750,83,3847,86,3887,93,3919,110,3931,124,3940,140,3945,161,3947,185,3947,276,3940,363,3927,431,3921,430,3934,362,3942,276,3942,185,3940,162,3935,142,3927,127,3916,115,3886,99,3847,91,3750,89,3697,87,3644,81,3515,64,3344,51,2932,33,2514,25,2196,22"/>
+<area shape="rect" id="Node000029" href="$zephyr__core_2crypto_2Crypto_8cpp.html" title="Zephyr AES&#45;128&#45;CCM&#45;4 implementation using bt_ccm_decrypt." alt="" coords="3632,431,3793,471"/>
+<area shape="poly" id="edge73_Node000001_Node000029" title=" " alt="" coords="2197,16,2413,18,2704,26,3034,44,3203,58,3368,76,3458,79,3549,71,3638,60,3719,51,3790,52,3820,58,3846,70,3868,88,3884,112,3893,145,3897,185,3897,276,3896,334,3888,358,3871,384,3836,414,3795,433,3792,428,3833,409,3867,381,3883,356,3890,333,3891,276,3891,185,3888,146,3879,114,3864,91,3844,74,3819,63,3790,57,3720,56,3638,65,3550,77,3458,85,3367,81,3202,63,3034,50,2704,31,2413,23,2196,21"/>
+<area shape="rect" id="Node000052" href="$posix__main_8cpp_source.html" title=" " alt="" coords="3405,431,3557,471"/>
+<area shape="poly" id="edge71_Node000001_Node000052" title=" " alt="" coords="2196,17,2438,21,2741,30,3034,47,3155,60,3246,76,3288,83,3330,88,3406,96,3437,106,3462,122,3478,148,3483,185,3483,276,3483,431,3478,431,3478,276,3478,186,3473,150,3458,126,3435,111,3405,102,3329,93,3288,89,3246,81,3154,65,3034,53,2741,35,2438,26,2196,23"/>
+<area shape="rect" id="Node000060" href="$ErrorHandlerTests_8cpp_source.html" title=" " alt="" coords="3109,167,3309,207"/>
+<area shape="poly" id="edge77_Node000001_Node000060" title=" " alt="" coords="2181,30,2579,87,3096,164,3109,166,3108,171,3095,169,2579,92,2180,35"/>
+<area shape="rect" id="Node000061" href="$EnoceanDriver_8ipp.html" title="Template method implementations for EnoceanDriver&lt;CryptoBackend&gt;." alt="" coords="924,86,1147,111"/>
+<area shape="poly" id="edge75_Node000001_Node000061" title=" " alt="" coords="1973,30,1147,92,1147,86,1973,25"/>
+<area shape="rect" id="Node000006" href="$GpioError_8hpp.html" title="Error handling types for GPIO operations." alt="" coords="266,167,429,207"/>
+<area shape="poly" id="edge5_Node000005_Node000006" title=" " alt="" coords="1546,109,429,183,429,177,1546,104"/>
+<area shape="rect" id="Node000011" href="$SerialError_8hpp.html" title="Error codes for serial/UART operations." alt="" coords="977,167,1147,207"/>
+<area shape="poly" id="edge13_Node000005_Node000011" title=" " alt="" coords="1546,115,1166,169,1148,172,1147,167,1166,164,1545,110"/>
+<area shape="rect" id="Node000013" href="$WatchdogError_8hpp.html" title="Error codes for hardware watchdog operations." alt="" coords="2037,167,2236,207"/>
+<area shape="poly" id="edge15_Node000005_Node000013" title=" " alt="" coords="1734,114,2037,166,2037,171,1733,119"/>
+<area shape="rect" id="Node000018" href="$BleError_8hpp.html" title="BLE scanner error codes and ErrorTraits specialisation." alt="" coords="1223,167,1389,207"/>
+<area shape="poly" id="edge20_Node000005_Node000018" title=" " alt="" coords="1554,125,1380,169,1378,164,1552,119"/>
+<area shape="rect" id="Node000019" href="$IBle_8hpp.html" title="CRTP interface for platform&#45;specific BLE passive scanners." alt="" coords="979,255,1145,295"/>
+<area shape="poly" id="edge26_Node000005_Node000019" title=" " alt="" coords="1546,104,1471,109,1386,120,1297,140,1211,169,1185,187,1161,209,1092,257,1089,252,1158,205,1182,182,1209,164,1295,134,1385,115,1471,104,1546,98"/>
+<area shape="rect" id="Node000024" href="$CryptoError_8hpp.html" title="Crypto backend error codes and ErrorTraits specialisation." alt="" coords="2896,167,3084,207"/>
+<area shape="poly" id="edge27_Node000005_Node000024" title=" " alt="" coords="1734,99,1941,103,2226,114,2553,134,2884,164,2896,166,2896,171,2883,169,2552,139,2226,120,1941,109,1733,104"/>
+<area shape="rect" id="Node000030" href="$MessageQueueError_8hpp.html" title="Error handling types for message queue operations." alt="" coords="1656,167,1887,207"/>
+<area shape="poly" id="edge33_Node000005_Node000030" title=" " alt="" coords="1681,124,1744,164,1741,169,1679,129"/>
+<area shape="rect" id="Node000035" href="$MutexError_8hpp.html" title="Error handling types for mutex operations." alt="" coords="1414,167,1603,207"/>
+<area shape="poly" id="edge39_Node000005_Node000035" title=" " alt="" coords="1601,128,1539,169,1536,164,1598,124"/>
+<area shape="rect" id="Node000042" href="$SemaphoreError_8hpp.html" title="Error handling types for semaphore operations." alt="" coords="2437,167,2657,207"/>
+<area shape="poly" id="edge46_Node000005_Node000042" title=" " alt="" coords="1733,106,2438,172,2437,178,1733,111"/>
+<area shape="rect" id="Node000049" href="$ThreadError_8hpp.html" title="Error handling types for thread operations." alt="" coords="2682,167,2871,207"/>
+<area shape="poly" id="edge53_Node000005_Node000049" title=" " alt="" coords="1734,100,2141,119,2403,138,2669,164,2682,166,2682,171,2668,169,2403,143,2140,124,1733,105"/>
+<area shape="rect" id="Node000058" href="$EnoceanDriver_8hpp.html" title="Platform&#45;agnostic EnOcean BLE driver." alt="" coords="533,262,759,287"/>
+<area shape="poly" id="edge64_Node000005_Node000058" title=" " alt="" coords="1546,107,1062,135,834,153,759,161,723,169,698,189,677,215,653,263,648,261,673,212,694,186,721,164,758,156,834,148,1062,130,1546,102"/>
+<area shape="rect" id="Node000059" href="$EnoceanError_8hpp.html" title="EnOcean driver error codes and ErrorTraits specialisation." alt="" coords="735,174,952,199"/>
+<area shape="poly" id="edge66_Node000005_Node000059" title=" " alt="" coords="1546,110,1284,134,965,169,914,177,913,171,964,164,1284,129,1546,105"/>
+<area shape="poly" id="edge68_Node000005_Node000060" title=" " alt="" coords="1733,98,1972,101,2309,112,2699,131,2899,146,3096,164,3109,166,3108,171,3095,169,2899,151,2699,137,2309,117,1972,107,1733,103"/>
+<area shape="rect" id="Node000007" href="$IGpio_8hpp.html" title="GPIO abstraction interface and concept for cross&#45;platform hardware drivers." alt="" coords="235,255,398,295"/>
+<area shape="poly" id="edge6_Node000006_Node000007" title=" " alt="" coords="338,221,326,255,321,254,333,219"/>
+<area shape="rect" id="Node000008" href="$posix_2gpio_2Gpio_8hpp.html" title="POSIX GPIO driver implementation for digital I/O abstraction." alt="" coords="99,350,297,375"/>
+<area shape="poly" id="edge11_Node000006_Node000008" title=" " alt="" coords="279,215,250,233,225,256,212,280,205,306,200,350,195,350,200,305,208,278,221,253,247,229,276,210"/>
+<area shape="rect" id="Node000009" href="$zephyr_2gpio_2Gpio_8hpp.html" title="Zephyr GPIO driver implementation for digital I/O abstraction." alt="" coords="322,343,469,383"/>
+<area shape="poly" id="edge12_Node000006_Node000009" title=" " alt="" coords="385,215,401,233,412,254,418,277,417,302,406,343,401,342,411,301,412,278,408,256,396,236,381,218"/>
+<area shape="poly" id="edge7_Node000007_Node000008" title=" " alt="" coords="281,305,216,352,212,348,278,301"/>
+<area shape="poly" id="edge9_Node000007_Node000009" title=" " alt="" coords="345,303,380,341,376,344,341,307"/>
+<area shape="poly" id="edge8_Node000008_Node000003" title=" " alt="" coords="177,387,119,439,116,435,173,383"/>
+<area shape="rect" id="Node000010" href="$zephyr_2gpio_2Gpio_8cpp_source.html" title=" " alt="" coords="322,431,469,471"/>
+<area shape="poly" id="edge10_Node000009_Node000010" title=" " alt="" coords="398,397,398,430,393,430,393,397"/>
+<area shape="rect" id="Node000012" href="$ISerial_8hpp.html" title="Serial abstraction interface and concept for cross&#45;platform hardware drivers." alt="" coords="783,255,954,295"/>
+<area shape="poly" id="edge14_Node000011_Node000012" title=" " alt="" coords="1008,215,912,257,910,252,1006,210"/>
+<area shape="rect" id="Node000014" href="$IWatchdog_8hpp.html" title="Platform&#45;agnostic watchdog timer interface for hardware monitoring." alt="" coords="2164,255,2363,295"/>
+<area shape="poly" id="edge16_Node000013_Node000014" title=" " alt="" coords="2178,212,2237,252,2234,257,2175,217"/>
+<area shape="rect" id="Node000015" href="$Watchdog_8hpp.html" title="Zephyr RTOS watchdog driver implementation." alt="" coords="2183,343,2365,383"/>
+<area shape="poly" id="edge17_Node000014_Node000015" title=" " alt="" coords="2270,308,2274,342,2269,343,2265,309"/>
+<area shape="rect" id="Node000016" href="$Watchdog_8cpp_source.html" title=" " alt="" coords="2183,431,2365,471"/>
+<area shape="poly" id="edge18_Node000015_Node000016" title=" " alt="" coords="2277,397,2277,430,2271,430,2271,397"/>
+<area shape="poly" id="edge19_Node000015_Node000017" title=" " alt="" coords="2379,380,2504,393,2609,399,2790,404,2969,408,3074,415,3197,428,3219,431,3218,436,3196,433,3073,421,2969,414,2789,409,2609,405,2503,398,2378,385"/>
+<area shape="poly" id="edge21_Node000018_Node000019" title=" " alt="" coords="1241,214,1116,257,1115,252,1239,209"/>
+<area shape="rect" id="Node000020" href="$posix__core_2ble_2Ble_8hpp.html" title="POSIX/BlueZ implementation of the BLE passive scanner interface." alt="" coords="991,343,1143,383"/>
+<area shape="poly" id="edge22_Node000019_Node000020" title=" " alt="" coords="1067,308,1069,342,1063,343,1061,309"/>
+<area shape="rect" id="Node000022" href="$zephyr__core_2ble_2Ble_8hpp.html" title="Zephyr implementation of the BLE passive scanner interface." alt="" coords="771,343,932,383"/>
+<area shape="poly" id="edge24_Node000019_Node000022" title=" " alt="" coords="1004,302,898,345,896,340,1002,297"/>
+<area shape="poly" id="edge23_Node000020_Node000021" title=" " alt="" coords="1143,384,1287,428,1285,433,1141,389"/>
+<area shape="poly" id="edge25_Node000022_Node000023" title=" " alt="" coords="778,389,636,433,634,428,777,384"/>
+<area shape="rect" id="Node000025" href="$ICrypto_8hpp.html" title="CRTP interface for platform&#45;specific AES&#45;128&#45;CCM&#45;4 operations." alt="" coords="3519,255,3707,295"/>
+<area shape="poly" id="edge28_Node000024_Node000025" title=" " alt="" coords="3098,204,3329,236,3519,260,3518,265,3328,242,3097,209"/>
+<area shape="rect" id="Node000026" href="$posix__core_2crypto_2Crypto_8hpp.html" title="POSIX OpenSSL implementation of ICrypto&lt;AesCcm&gt; for AES&#45;128&#45;CCM&#45;4." alt="" coords="3705,343,3857,383"/>
+<area shape="poly" id="edge29_Node000025_Node000026" title=" " alt="" coords="3663,298,3745,340,3743,345,3660,303"/>
+<area shape="rect" id="Node000028" href="$zephyr__core_2crypto_2Crypto_8hpp.html" title="Zephyr PSA crypto implementation of ICrypto&lt;AesCcm&gt; for AES&#45;128&#45;CCM&#45;4." alt="" coords="3519,343,3680,383"/>
+<area shape="poly" id="edge31_Node000025_Node000028" title=" " alt="" coords="3610,309,3605,343,3600,342,3605,308"/>
+<area shape="poly" id="edge30_Node000026_Node000027" title=" " alt="" coords="3824,387,3890,428,3888,433,3821,392"/>
+<area shape="poly" id="edge32_Node000028_Node000029" title=" " alt="" coords="3637,389,3689,428,3686,433,3634,393"/>
+<area shape="rect" id="Node000031" href="$IMessageQueue_8hpp.html" title="CRTP&#45;based message queue interface for platform&#45;agnostic message passing." alt="" coords="1933,255,2140,295"/>
+<area shape="poly" id="edge34_Node000030_Node000031" title=" " alt="" coords="1843,208,1979,252,1978,257,1842,213"/>
+<area shape="rect" id="Node000033" href="$zephyr__core_2message__queue_2MessageQueue_8hpp.html" title="Zephyr RTOS implementation of the message queue interface using Zephyr message queues." alt="" coords="1554,343,1818,383"/>
+<area shape="poly" id="edge37_Node000030_Node000033" title=" " alt="" coords="1719,216,1697,234,1680,256,1674,277,1673,300,1681,342,1676,343,1668,301,1668,277,1676,253,1693,230,1716,212"/>
+<area shape="rect" id="Node000034" href="$MessageQueueTests_8cpp_source.html" title=" " alt="" coords="1690,255,1909,295"/>
+<area shape="poly" id="edge38_Node000030_Node000034" title=" " alt="" coords="1784,219,1796,254,1791,255,1779,221"/>
+<area shape="rect" id="Node000032" href="$posix__core_2message__queue_2MessageQueue_8hpp.html" title="POSIX implementation of the message queue interface using POSIX message queues." alt="" coords="1845,343,2109,383"/>
+<area shape="poly" id="edge35_Node000031_Node000032" title=" " alt="" coords="2018,307,1992,344,1988,341,2013,304"/>
+<area shape="poly" id="edge36_Node000031_Node000033" title=" " alt="" coords="1947,300,1763,345,1762,340,1946,295"/>
+<area shape="rect" id="Node000036" href="$IMutex_8hpp.html" title="Platform&#45;agnostic mutex interface for cross&#45;platform synchronization." alt="" coords="1170,255,1359,295"/>
+<area shape="poly" id="edge40_Node000035_Node000036" title=" " alt="" coords="1443,214,1319,257,1317,252,1441,209"/>
+<area shape="rect" id="Node000041" href="$MutexTests_8cpp_source.html" title=" " alt="" coords="1384,262,1615,287"/>
+<area shape="poly" id="edge45_Node000035_Node000041" title=" " alt="" coords="1508,221,1503,262,1498,261,1502,220"/>
+<area shape="rect" id="Node000037" href="$posix__core_2mutex_2Mutex_8hpp.html" title="POSIX mutex implementation for platform mutex abstraction." alt="" coords="1373,343,1525,383"/>
+<area shape="poly" id="edge41_Node000036_Node000037" title=" " alt="" coords="1319,298,1410,340,1407,345,1316,303"/>
+<area shape="rect" id="Node000039" href="$zephyr__core_2mutex_2Mutex_8hpp.html" title="Zephyr RTOS mutex implementation for platform mutex abstraction." alt="" coords="1173,343,1335,383"/>
+<area shape="poly" id="edge43_Node000036_Node000039" title=" " alt="" coords="1263,309,1259,343,1254,342,1258,308"/>
+<area shape="rect" id="Node000038" href="$posix__core_2mutex_2Mutex_8cpp_source.html" title=" " alt="" coords="1447,431,1599,471"/>
+<area shape="poly" id="edge42_Node000037_Node000038" title=" " alt="" coords="1476,391,1509,429,1505,432,1472,395"/>
+<area shape="rect" id="Node000040" href="$zephyr__core_2mutex_2Mutex_8cpp_source.html" title=" " alt="" coords="1085,431,1247,471"/>
+<area shape="poly" id="edge44_Node000039_Node000040" title=" " alt="" coords="1226,394,1187,432,1184,429,1223,391"/>
+<area shape="rect" id="Node000043" href="$ISemaphore_8hpp.html" title="Platform&#45;agnostic semaphore interface for cross&#45;platform synchronization." alt="" coords="2621,255,2841,295"/>
+<area shape="poly" id="edge47_Node000042_Node000043" title=" " alt="" coords="2601,210,2692,252,2690,257,2599,215"/>
+<area shape="rect" id="Node000048" href="$SemaphoreTests_8cpp_source.html" title=" " alt="" coords="2437,255,2597,295"/>
+<area shape="poly" id="edge52_Node000042_Node000048" title=" " alt="" coords="2538,221,2526,255,2521,254,2533,219"/>
+<area shape="rect" id="Node000044" href="$posix__core_2semaphore_2Semaphore_8hpp.html" title="POSIX semaphore implementation for platform semaphore abstraction." alt="" coords="2618,343,2823,383"/>
+<area shape="poly" id="edge48_Node000043_Node000044" title=" " alt="" coords="2730,309,2726,343,2720,342,2725,308"/>
+<area shape="rect" id="Node000046" href="$zephyr__core_2semaphore_2Semaphore_8hpp.html" title="Zephyr RTOS semaphore implementation for platform semaphore abstraction." alt="" coords="2389,343,2594,383"/>
+<area shape="poly" id="edge50_Node000043_Node000046" title=" " alt="" coords="2667,302,2545,345,2543,340,2665,297"/>
+<area shape="rect" id="Node000045" href="$posix__core_2semaphore_2Semaphore_8cpp_source.html" title=" " alt="" coords="2619,431,2823,471"/>
+<area shape="poly" id="edge49_Node000044_Node000045" title=" " alt="" coords="2723,397,2723,430,2718,430,2718,397"/>
+<area shape="rect" id="Node000047" href="$zephyr__core_2semaphore_2Semaphore_8cpp_source.html" title=" " alt="" coords="2389,431,2593,471"/>
+<area shape="poly" id="edge51_Node000046_Node000047" title=" " alt="" coords="2494,397,2494,430,2489,430,2489,397"/>
+<area shape="rect" id="Node000050" href="$IThread_8hpp.html" title="Platform&#45;agnostic thread abstraction interfaces for cross&#45;platform projects." alt="" coords="3125,255,3314,295"/>
+<area shape="poly" id="edge54_Node000049_Node000050" title=" " alt="" coords="2886,206,3125,252,3124,258,2885,212"/>
+<area shape="rect" id="Node000057" href="$ThreadTests_8cpp_source.html" title=" " alt="" coords="2866,262,3101,287"/>
+<area shape="poly" id="edge63_Node000049_Node000057" title=" " alt="" coords="2835,209,2957,260,2955,264,2833,214"/>
+<area shape="rect" id="Node000051" href="$AppEntry_8hpp.html" title="Application entry point thread runner for platform&#45;agnostic logic." alt="" coords="3209,350,3392,375"/>
+<area shape="poly" id="edge55_Node000050_Node000051" title=" " alt="" coords="3249,303,3291,348,3287,351,3245,307"/>
+<area shape="rect" id="Node000053" href="$posix__core_2thread_2Thread_8hpp.html" title="POSIX thread implementation for platform thread abstraction." alt="" coords="2847,343,2999,383"/>
+<area shape="poly" id="edge59_Node000050_Node000053" title=" " alt="" coords="3142,301,2989,345,2987,340,3141,296"/>
+<area shape="rect" id="Node000055" href="$zephyr__core_2thread_2Thread_8hpp.html" title="Zephyr thread implementation for platform thread abstraction." alt="" coords="3024,343,3185,383"/>
+<area shape="poly" id="edge61_Node000050_Node000055" title=" " alt="" coords="3185,305,3132,345,3128,340,3181,301"/>
+<area shape="poly" id="edge56_Node000051_Node000002" title=" " alt="" coords="3233,380,3197,385,2875,413,2601,427,2361,432,2136,430,1670,422,1396,424,1073,433,861,445,861,440,1073,428,1396,418,1670,417,2136,424,2360,426,2601,422,2874,408,3196,380,3233,375"/>
+<area shape="poly" id="edge58_Node000051_Node000017" title=" " alt="" coords="3303,389,3302,430,3297,430,3298,389"/>
+<area shape="poly" id="edge57_Node000051_Node000052" title=" " alt="" coords="3338,379,3442,428,3440,433,3336,384"/>
+<area shape="rect" id="Node000054" href="$posix__core_2thread_2Thread_8cpp_source.html" title=" " alt="" coords="2847,431,2999,471"/>
+<area shape="poly" id="edge60_Node000053_Node000054" title=" " alt="" coords="2926,397,2926,430,2921,430,2921,397"/>
+<area shape="rect" id="Node000056" href="$zephyr__core_2thread_2Thread_8cpp_source.html" title=" " alt="" coords="3024,431,3185,471"/>
+<area shape="poly" id="edge62_Node000055_Node000056" title=" " alt="" coords="3107,397,3107,430,3102,430,3102,397"/>
+<area shape="poly" id="edge65_Node000058_Node000002" title=" " alt="" coords="664,297,764,436,760,439,660,300"/>
+<area shape="poly" id="edge67_Node000059_Node000058" title=" " alt="" coords="805,207,674,264,672,259,803,202"/>
+<area shape="poly" id="edge76_Node000061_Node000058" title=" " alt="" coords="911,112,842,121,774,133,717,149,695,158,680,169,664,190,654,216,648,262,643,261,649,215,659,188,676,165,693,154,715,144,773,128,841,115,910,107"/>
+</map>

@@ -1,0 +1,35 @@
+<map id="boards/common/igpio/IGpio.hpp" name="boards/common/igpio/IGpio.hpp">
+<area shape="rect" id="Node000001" title="GPIO abstraction interface and concept for cross&#45;platform hardware drivers." alt="" coords="113,5,276,45"/>
+<area shape="rect" id="Node000002" title=" " alt="" coords="5,93,85,119"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="160,48,81,89,78,84,158,43"/>
+<area shape="rect" id="Node000003" title=" " alt="" coords="109,93,176,119"/>
+<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="184,47,160,83,156,80,180,44"/>
+<area shape="rect" id="Node000004" title=" " alt="" coords="201,93,293,119"/>
+<area shape="poly" id="edge3_Node000001_Node000004" title=" " alt="" coords="209,44,234,80,229,83,205,47"/>
+<area shape="rect" id="Node000005" href="$GpioError_8hpp.html" title="Error handling types for GPIO operations." alt="" coords="317,93,427,119"/>
+<area shape="poly" id="edge4_Node000001_Node000005" title=" " alt="" coords="238,43,335,85,332,90,236,48"/>
+<area shape="rect" id="Node000006" title=" " alt="" coords="170,240,267,265"/>
+<area shape="poly" id="edge5_Node000005_Node000006" title=" " alt="" coords="361,121,243,232,239,229,358,117"/>
+<area shape="rect" id="Node000007" href="$ErrorHandler_8hpp.html" title="A monadic error handling wrapper for safety&#45;critical applications." alt="" coords="361,167,583,192"/>
+<area shape="poly" id="edge6_Node000005_Node000007" title=" " alt="" coords="390,117,446,156,443,161,387,121"/>
+<area shape="poly" id="edge16_Node000007_Node000006" title=" " alt="" coords="432,195,274,239,272,234,431,189"/>
+<area shape="rect" id="Node000008" title=" " alt="" coords="292,240,375,265"/>
+<area shape="poly" id="edge7_Node000007_Node000008" title=" " alt="" coords="451,194,369,236,367,231,449,190"/>
+<area shape="rect" id="Node000009" href="$Logger_8hpp.html" title="Platform&#45;agnostic logging bridge to plog." alt="" coords="399,240,545,265"/>
+<area shape="poly" id="edge8_Node000007_Node000009" title=" " alt="" coords="475,192,475,226,469,226,469,192"/>
+<area shape="rect" id="Node000014" title=" " alt="" coords="569,313,693,339"/>
+<area shape="poly" id="edge14_Node000007_Node000014" title=" " alt="" coords="493,190,525,211,559,238,590,270,616,301,612,304,586,273,556,242,522,215,490,194"/>
+<area shape="rect" id="Node000015" title=" " alt="" coords="620,240,679,265"/>
+<area shape="poly" id="edge15_Node000007_Node000015" title=" " alt="" coords="501,190,609,232,607,237,500,194"/>
+<area shape="rect" id="Node000016" title=" " alt="" coords="703,240,771,265"/>
+<area shape="poly" id="edge17_Node000007_Node000016" title=" " alt="" coords="515,189,691,236,689,241,514,195"/>
+<area shape="rect" id="Node000010" title=" " alt="" coords="133,313,243,339"/>
+<area shape="poly" id="edge9_Node000009_Node000010" title=" " alt="" coords="427,268,248,313,246,307,426,263"/>
+<area shape="rect" id="Node000011" title=" " alt="" coords="267,313,378,339"/>
+<area shape="poly" id="edge10_Node000009_Node000011" title=" " alt="" coords="449,268,361,310,358,305,447,263"/>
+<area shape="rect" id="Node000012" title=" " alt="" coords="403,313,459,339"/>
+<area shape="poly" id="edge11_Node000009_Node000012" title=" " alt="" coords="467,267,447,303,442,300,463,264"/>
+<area shape="rect" id="Node000013" title=" " alt="" coords="483,313,544,339"/>
+<area shape="poly" id="edge12_Node000009_Node000013" title=" " alt="" coords="481,264,502,300,497,303,477,267"/>
+<area shape="poly" id="edge13_Node000009_Node000014" title=" " alt="" coords="499,263,593,305,591,310,496,268"/>
+</map>

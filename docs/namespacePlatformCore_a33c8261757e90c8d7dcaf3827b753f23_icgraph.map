@@ -1,0 +1,7 @@
+<map id="PlatformCore::k_error_to_error" name="PlatformCore::k_error_to_error">
+<area shape="rect" id="Node000001" title="Maps Zephyr error codes to MessageQueueError enum values." alt="" coords="269,37,432,77"/>
+<area shape="rect" id="Node000002" href="$classPlatformCore_1_1MessageQueue.html#ae8f4e577901c6eded0b38958ae87d482" title="Receives a message from the queue with a specified timeout." alt="" coords="5,5,221,45"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="255,47,221,43,222,37,256,42"/>
+<area shape="rect" id="Node000003" href="$classPlatformCore_1_1MessageQueue.html#adcd72d9bf5f43ba8fc43bc637883b70d" title="Sends a message to the queue with a specified timeout." alt="" coords="5,69,221,109"/>
+<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="256,73,222,77,221,72,255,67"/>
+</map>

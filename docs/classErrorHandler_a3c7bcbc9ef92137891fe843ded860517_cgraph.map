@@ -1,0 +1,5 @@
+<map id="ErrorHandler::or_else" name="ErrorHandler::or_else">
+<area shape="rect" id="Node000001" title="Applies error recovery function if error exists, propagates value otherwise (const rvalue)." alt="" coords="5,5,164,31"/>
+<area shape="rect" id="Node000002" href="$classErrorHandler.html#aa170486801afc70fb85e9b39eded6709" title="Constructs an ErrorHandler with a success value." alt="" coords="212,5,407,31"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="164,15,198,15,198,21,164,21"/>
+</map>

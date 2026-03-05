@@ -1,0 +1,7 @@
+<map id="PlatformCore::IThread::set_thread_info" name="PlatformCore::IThread::set_thread_info">
+<area shape="rect" id="Node000001" title="Set both stack information and thread priority." alt="" coords="5,37,171,77"/>
+<area shape="rect" id="Node000002" href="$classPlatformCore_1_1IThread.html#aa8868ae62132e0aeb9dddc3f998f4a31" title="Set the stack information." alt="" coords="219,5,384,45"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="170,42,205,37,205,42,171,48"/>
+<area shape="rect" id="Node000003" href="$classPlatformCore_1_1IThread.html#a5b75bb1f6e1515a816aa6f12a82cc43f" title="Set the thread priority." alt="" coords="219,69,384,109"/>
+<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="171,67,205,72,205,78,170,72"/>
+</map>

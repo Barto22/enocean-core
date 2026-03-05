@@ -1,0 +1,7 @@
+<map id="platform/posix_core/message_queue" name="platform/posix_core/message_queue">
+<area shape="rect" id="node1" href="dir_e4a179a6b93436b9a7fecdfb22db24fe.html" title="message_queue" alt="" coords="27,52,155,77"/>
+<area shape="rect" id="node2" href="dir_e4413fdd10501f0f4b65f615de72d05f.html" title="common" alt="" coords="51,125,130,151"/>
+<area shape="poly" id="edge1" href="dir_000029_000005.html" alt="" coords="93,78,93,112,88,112,88,78"/>
+<area shape="rect" id="edge1-headlabel" href="dir_000029_000005.html" title="1" alt="" coords="94,100,104,114"/>
+<area shape="rect" id="clust1" href="dir_e879cfac6ce2289f56b4ec5215e0e207.html" title="posix_core" alt="" coords="16,16,165,88"/>
+</map>

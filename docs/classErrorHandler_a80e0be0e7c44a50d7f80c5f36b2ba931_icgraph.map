@@ -1,0 +1,7 @@
+<map id="ErrorHandler::value" name="ErrorHandler::value">
+<area shape="rect" id="Node000001" title="Accesses the contained value (lvalue reference)." alt="" coords="215,42,363,67"/>
+<area shape="rect" id="Node000002" href="$classPlatformCore_1_1Thread.html#a0dd1263638bcc6027b0e1bd6c926a7ab" title="Create and start the POSIX thread." alt="" coords="5,5,167,45"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="201,45,166,40,167,34,202,39"/>
+<area shape="rect" id="Node000003" href="$classErrorHandler.html#a479c903a83ebf054b468fd282393cb10" title="Accesses the contained value (const lvalue reference)." alt="" coords="12,70,160,95"/>
+<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="201,69,160,75,160,70,201,64"/>
+</map>

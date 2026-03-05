@@ -1,0 +1,25 @@
+var searchData=
+[
+  ['race_20detection_0',['DRD (Data Race Detection)',['../md_README.html#autotoc_md33',1,'']]],
+  ['raspberry_20pi_1',['POSIX (Linux / Raspberry Pi)',['../md_README.html#autotoc_md13',1,'']]],
+  ['read_2',['read',['../classBoards_1_1Serial_1_1Serial.html#a367d29574bfa4ed8d7eada012d509ec0',1,'Boards::Serial::Serial::read()'],['../classBoards_1_1Gpio_1_1IGpio.html#a823899b406a3cce91f12a8027e430dab',1,'Boards::Gpio::IGpio::read()']]],
+  ['receive_3',['receive',['../classPlatformCore_1_1IMessageQueue.html#a57fdc5282273e689db04b5401417cff2',1,'PlatformCore::IMessageQueue']]],
+  ['receive_5fimpl_4',['receive_impl',['../classPlatformCore_1_1MessageQueue.html#ae8f4e577901c6eded0b38958ae87d482',1,'PlatformCore::MessageQueue::receive_impl(T &amp;msg, k_timeout_t timeout) const -&gt; ErrorHandler&lt; std::monostate, MessageQueueError &gt;'],['../classPlatformCore_1_1MessageQueue.html#ad6fe8e5e8a1bd59a5624afc6f387b3d6',1,'PlatformCore::MessageQueue::receive_impl(T &amp;msg, std::uint32_t timeout_ms) const -&gt; ErrorHandler&lt; std::monostate, MessageQueueError &gt;']]],
+  ['receiveerror_5',['ReceiveError',['../namespaceBoards_1_1Serial.html#acaba991ba65e6e3ac05a0f71d9042d50a18d8da77f8ec7c0948a23dadf80704d5',1,'Boards::Serial']]],
+  ['release_6',['Release',['../EnoceanTypes_8hpp.html#a97d09c0b7bebda15d0742fad22a15d69ab8e7b465df7c5979dc731d06e84ce2cf',1,'Enocean']]],
+  ['reloaderror_7',['ReloadError',['../namespaceBoards_1_1Watchdog.html#adf3ac84f4bb941e691351263c513432fa6a437e845787d505af4a270281b7f15c',1,'Boards::Watchdog']]],
+  ['replaydetected_8',['ReplayDetected',['../EnoceanError_8hpp.html#a7d566396a7b1fef732085f9e7cb9c74fa136bc888f3fb424a440b5d1c8418d6ec',1,'Enocean']]],
+  ['required_20packages_9',['1. Install required packages',['../md_README.html#autotoc_md14',1,'']]],
+  ['resourcelimitexceeded_10',['resourcelimitexceeded',['../namespacePlatformCore.html#a94a072d5b3e3e72e0572f28c1b4d77deac35988270a728f7c24597dd1d753f102',1,'PlatformCore::ResourceLimitExceeded'],['../namespacePlatformCore.html#a9bad0878b7392b888ac325dd33e01f5aac35988270a728f7c24597dd1d753f102',1,'PlatformCore::ResourceLimitExceeded'],['../namespacePlatformCore.html#a3cdc5630cc69c2308d243a595075aae8ac35988270a728f7c24597dd1d753f102',1,'PlatformCore::ResourceLimitExceeded'],['../namespacePlatformCore.html#ae1ec5f50e9fe813cc42702cea284f0e3ac35988270a728f7c24597dd1d753f102',1,'PlatformCore::ResourceLimitExceeded']]],
+  ['rssi_11',['rssi',['../structEnocean_1_1EnoceanDevice.html#ae86801d9d0f379df7e2ac8d0c16719d8',1,'Enocean::EnoceanDevice']]],
+  ['rtos_12',['Zephyr RTOS',['../md_README.html#autotoc_md25',1,'']]],
+  ['rtos_20nrf52840_13',['Zephyr RTOS (nRF52840)',['../md_README.html#autotoc_md11',1,'']]],
+  ['rtos_20nrf7002dk_20nrf5340_20cpuapp_14',['Zephyr RTOS (nRF7002dk/nrf5340/cpuapp)',['../md_README.html#autotoc_md12',1,'']]],
+  ['run_15',['run',['../md_README.html#autotoc_md17',1,'4. Run'],['../classPlatformCore_1_1IThreadRunner.html#a8984856e210ffd8d7522beadeaa926fc',1,'PlatformCore::IThreadRunner::run()']]],
+  ['run_20posix_20unit_20tests_16',['Run POSIX Unit Tests',['../md_README.html#autotoc_md22',1,'']]],
+  ['run_20static_20code_20analysis_17',['Run Static Code Analysis',['../md_README.html#autotoc_md24',1,'']]],
+  ['run_20valgrind_20with_20posix_20app_18',['Run Valgrind with POSIX App',['../md_README.html#autotoc_md28',1,'']]],
+  ['run_5fcmake_5fformat_19',['run_cmake_format',['../namespaceformat__cmake.html#a26701a46d45358017b7a70f6efd45095',1,'format_cmake']]],
+  ['run_5fimpl_20',['run_impl',['../classApp_1_1AppEntry.html#ae3fc0793223342b8252f6a65646b3f35',1,'App::AppEntry']]],
+  ['running_21',['5. Stop bluetoothd (if running)',['../md_README.html#autotoc_md18',1,'']]]
+];

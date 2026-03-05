@@ -1,0 +1,7 @@
+<map id="PlatformCore::Mutex" name="PlatformCore::Mutex">
+<area shape="rect" id="Node000001" title="POSIX&#45;based mutex implementation using pthread primitives." alt="" coords="232,56,389,81"/>
+<area shape="rect" id="Node000002" href="$classPlatformCore_1_1IMutex.html" title=" " alt="" coords="13,5,176,60"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="190,46,235,53,234,59,189,51"/>
+<area shape="rect" id="Node000003" href="$classPlatformCore_1_1IMutex.html" title=" " alt="" coords="5,85,184,125"/>
+<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="197,85,234,79,235,84,198,90"/>
+</map>

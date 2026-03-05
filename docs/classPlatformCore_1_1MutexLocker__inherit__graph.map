@@ -1,0 +1,7 @@
+<map id="PlatformCore::MutexLocker" name="PlatformCore::MutexLocker">
+<area shape="rect" id="Node000001" title="POSIX&#45;specific RAII mutex lock guard for automatic Mutex lifetime management." alt="" coords="256,56,455,81"/>
+<area shape="rect" id="Node000002" href="$classPlatformCore_1_1IMutexLocker.html" title=" " alt="" coords="5,5,208,60"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="222,47,268,53,267,59,221,52"/>
+<area shape="rect" id="Node000003" href="$classPlatformCore_1_1IMutexLocker.html" title=" " alt="" coords="5,85,208,125"/>
+<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="221,85,267,79,268,84,222,91"/>
+</map>

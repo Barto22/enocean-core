@@ -1,0 +1,11 @@
+<map id="App::AppEntry::run_impl" name="App::AppEntry::run_impl">
+<area shape="rect" id="Node000001" title="Run the main application logic." alt="" coords="5,70,184,95"/>
+<area shape="rect" id="Node000002" href="$classEnocean_1_1EnoceanDriver.html#ac2057346ee9728f1fff25304c6cdb168" title="Initialise the driver and reset device table." alt="" coords="232,5,412,45"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="145,67,229,46,230,51,147,73"/>
+<area shape="rect" id="Node000004" href="$classBle_1_1IBle.html#ad2412585cec47e72fd878ab89f2c4164" title="Initialise the BLE adapter and register the advertisement callback." alt="" coords="269,70,375,95"/>
+<area shape="poly" id="edge3_Node000001_Node000004" title=" " alt="" coords="184,80,256,80,256,85,184,85"/>
+<area shape="rect" id="Node000005" href="$classPlatformCore_1_1ISleep.html#a70c93d7da2e48b6c43279aeba1adb70c" title="Suspends the current thread for the specified duration in milliseconds." alt="" coords="244,120,400,160"/>
+<area shape="poly" id="edge4_Node000001_Node000005" title=" " alt="" coords="147,93,231,114,230,120,145,98"/>
+<area shape="rect" id="Node000003" href="$classErrorHandler.html#aa170486801afc70fb85e9b39eded6709" title="Constructs an ErrorHandler with a success value." alt="" coords="460,13,655,38"/>
+<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="413,23,446,23,446,28,413,28"/>
+</map>

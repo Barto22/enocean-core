@@ -1,0 +1,6 @@
+<map id="Boards::Gpio::GpioDriver" name="Boards::Gpio::GpioDriver">
+<area shape="rect" id="Node000001" title="POSIX&#45;specific GPIO driver implementation." alt="" coords="5,93,188,119"/>
+<area shape="rect" id="Node000002" href="$classBoards_1_1Gpio_1_1IGpio.html" title=" " alt="" coords="21,5,172,45"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="90,59,93,93,87,93,85,59"/>
+<area shape="poly" id="edge2_Node000001_Node000002" title=" " alt="" coords="108,59,106,93,101,93,103,59"/>
+</map>

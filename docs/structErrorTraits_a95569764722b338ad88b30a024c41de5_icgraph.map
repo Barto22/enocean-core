@@ -1,0 +1,7 @@
+<map id="ErrorTraits::name" name="ErrorTraits::name">
+<area shape="rect" id="Node000001" title="Returns a human&#45;readable name for the given error value." alt="" coords="248,31,381,56"/>
+<area shape="rect" id="Node000002" href="$classErrorHandler.html#ad6f0eacb1fa5545d192f15e871346725" title="Constructs an ErrorHandler with an error and logs it." alt="" coords="5,5,200,31"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="234,36,200,32,200,27,235,31"/>
+<area shape="rect" id="Node000003" href="$classErrorHandler.html#a0382bf44bb80d91ed9c5e13fcda962f6" title="Constructs an ErrorHandler from std::unexpected and logs it." alt="" coords="5,55,200,80"/>
+<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="235,55,200,59,200,54,234,50"/>
+</map>

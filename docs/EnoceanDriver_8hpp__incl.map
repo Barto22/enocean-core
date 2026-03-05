@@ -1,0 +1,53 @@
+<map id="src/enocean/EnoceanDriver.hpp" name="src/enocean/EnoceanDriver.hpp">
+<area shape="rect" id="Node000001" title="Platform&#45;agnostic EnOcean BLE driver." alt="" coords="276,5,503,31"/>
+<area shape="rect" id="Node000002" title=" " alt="" coords="298,299,354,324"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="276,24,204,36,131,59,97,75,65,97,39,122,17,153,10,172,8,189,12,204,21,219,50,243,92,263,141,279,193,290,284,304,283,309,192,296,140,284,90,268,47,248,17,222,7,207,3,189,5,171,13,151,35,119,62,92,94,71,129,54,203,31,276,19"/>
+<area shape="rect" id="Node000003" title=" " alt="" coords="28,152,98,177"/>
+<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="320,33,246,52,171,81,124,111,86,144,83,140,121,107,168,76,245,47,318,28"/>
+<area shape="rect" id="Node000004" title=" " alt="" coords="123,152,190,177"/>
+<area shape="poly" id="edge3_Node000001_Node000004" title=" " alt="" coords="297,33,243,51,218,64,196,81,175,108,164,139,159,137,171,106,192,77,215,59,241,46,295,28"/>
+<area shape="rect" id="Node000005" title=" " alt="" coords="363,152,416,177"/>
+<area shape="poly" id="edge4_Node000001_Node000005" title=" " alt="" coords="392,31,392,138,387,138,387,31"/>
+<area shape="rect" id="Node000006" title=" " alt="" coords="365,225,433,251"/>
+<area shape="poly" id="edge5_Node000001_Node000006" title=" " alt="" coords="399,30,411,56,425,92,433,135,431,178,416,214,411,212,426,177,428,135,420,94,407,58,394,32"/>
+<area shape="rect" id="Node000007" href="$EnoceanError_8hpp.html" title="EnOcean driver error codes and ErrorTraits specialisation." alt="" coords="486,79,621,104"/>
+<area shape="poly" id="edge6_Node000001_Node000007" title=" " alt="" coords="417,28,516,71,513,76,415,33"/>
+<area shape="rect" id="Node000009" href="$ErrorHandler_8hpp.html" title="A monadic error handling wrapper for safety&#45;critical applications." alt="" coords="546,152,769,177"/>
+<area shape="poly" id="edge26_Node000001_Node000009" title=" " alt="" coords="475,28,569,48,609,61,635,77,646,90,653,106,660,138,654,139,648,108,642,93,632,81,607,66,568,53,474,33"/>
+<area shape="rect" id="Node000017" href="$EnoceanTypes_8hpp.html" title="Shared data structures and callback types for the EnOcean driver." alt="" coords="205,79,348,104"/>
+<area shape="poly" id="edge20_Node000001_Node000017" title=" " alt="" coords="373,33,308,74,305,69,370,28"/>
+<area shape="rect" id="Node000019" href="$EnoceanDriver_8ipp.html" title="Template method implementations for EnoceanDriver&lt;CryptoBackend&gt;." alt="" coords="817,79,957,104"/>
+<area shape="poly" id="edge27_Node000001_Node000019" title=" " alt="" coords="470,28,804,76,803,81,469,33"/>
+<area shape="rect" id="Node000008" title=" " alt="" coords="457,225,554,251"/>
+<area shape="poly" id="edge7_Node000007_Node000008" title=" " alt="" coords="552,105,516,213,511,211,547,104"/>
+<area shape="poly" id="edge8_Node000007_Node000009" title=" " alt="" coords="572,102,631,142,628,146,569,106"/>
+<area shape="poly" id="edge19_Node000009_Node000006" title=" " alt="" coords="617,180,447,226,445,221,615,175"/>
+<area shape="poly" id="edge18_Node000009_Node000008" title=" " alt="" coords="634,180,544,222,542,217,632,175"/>
+<area shape="rect" id="Node000010" title=" " alt="" coords="662,225,744,251"/>
+<area shape="poly" id="edge9_Node000009_Node000010" title=" " alt="" coords="667,176,691,212,686,215,663,179"/>
+<area shape="rect" id="Node000011" href="$Logger_8hpp.html" title="Platform&#45;agnostic logging bridge to plog." alt="" coords="820,225,965,251"/>
+<area shape="poly" id="edge10_Node000009_Node000011" title=" " alt="" coords="696,175,842,219,841,224,695,180"/>
+<area shape="rect" id="Node000015" title=" " alt="" coords="689,299,813,324"/>
+<area shape="poly" id="edge16_Node000009_Node000015" title=" " alt="" coords="695,175,730,194,746,207,759,224,764,239,766,255,762,285,757,285,761,255,759,240,754,227,742,211,727,198,693,180"/>
+<area shape="rect" id="Node000016" title=" " alt="" coords="579,225,638,251"/>
+<area shape="poly" id="edge17_Node000009_Node000016" title=" " alt="" coords="652,179,626,216,622,213,647,176"/>
+<area shape="poly" id="edge13_Node000011_Node000002" title=" " alt="" coords="820,251,368,307,367,302,819,246"/>
+<area shape="rect" id="Node000012" title=" " alt="" coords="838,299,947,324"/>
+<area shape="poly" id="edge11_Node000011_Node000012" title=" " alt="" coords="895,251,895,285,890,285,890,251"/>
+<area shape="rect" id="Node000013" title=" " alt="" coords="972,299,1082,324"/>
+<area shape="poly" id="edge12_Node000011_Node000013" title=" " alt="" coords="915,248,994,290,992,294,913,253"/>
+<area shape="rect" id="Node000014" title=" " alt="" coords="1107,299,1168,324"/>
+<area shape="poly" id="edge14_Node000011_Node000014" title=" " alt="" coords="932,248,1095,295,1093,300,931,253"/>
+<area shape="poly" id="edge15_Node000011_Node000015" title=" " alt="" coords="871,253,787,295,785,290,868,248"/>
+<area shape="poly" id="edge21_Node000017_Node000002" title=" " alt="" coords="284,103,303,151,318,223,326,285,321,285,313,224,298,153,279,105"/>
+<area shape="poly" id="edge22_Node000017_Node000003" title=" " alt="" coords="243,107,111,150,110,145,241,101"/>
+<area shape="poly" id="edge23_Node000017_Node000004" title=" " alt="" coords="258,106,189,147,187,142,256,102"/>
+<area shape="poly" id="edge25_Node000017_Node000005" title=" " alt="" coords="296,102,361,142,358,147,293,106"/>
+<area shape="rect" id="Node000018" title=" " alt="" coords="214,152,288,177"/>
+<area shape="poly" id="edge24_Node000017_Node000018" title=" " alt="" coords="275,105,262,140,257,138,270,103"/>
+<area shape="poly" id="edge30_Node000019_Node000011" title=" " alt="" coords="885,105,876,137,875,177,885,212,880,213,870,178,871,137,880,103"/>
+<area shape="rect" id="Node000020" title=" " alt="" coords="884,152,970,177"/>
+<area shape="poly" id="edge28_Node000019_Node000020" title=" " alt="" coords="896,103,916,139,911,141,891,106"/>
+<area shape="rect" id="Node000021" title=" " alt="" coords="994,152,1060,177"/>
+<area shape="poly" id="edge29_Node000019_Node000021" title=" " alt="" coords="911,102,993,143,991,148,908,106"/>
+</map>

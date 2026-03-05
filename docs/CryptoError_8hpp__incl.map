@@ -1,0 +1,27 @@
+<map id="platform/common/icrypto/CryptoError.hpp" name="platform/common/icrypto/CryptoError.hpp">
+<area shape="rect" id="Node000001" title="Crypto backend error codes and ErrorTraits specialisation." alt="" coords="123,5,311,45"/>
+<area shape="rect" id="Node000002" title=" " alt="" coords="42,167,139,192"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="203,48,111,158,107,154,199,44"/>
+<area shape="rect" id="Node000003" href="$ErrorHandler_8hpp.html" title="A monadic error handling wrapper for safety&#45;critical applications." alt="" coords="233,93,455,119"/>
+<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="249,43,315,84,313,88,247,48"/>
+<area shape="poly" id="edge12_Node000003_Node000002" title=" " alt="" coords="304,121,146,165,144,160,303,116"/>
+<area shape="rect" id="Node000004" title=" " alt="" coords="164,167,247,192"/>
+<area shape="poly" id="edge3_Node000003_Node000004" title=" " alt="" coords="323,121,241,163,239,158,321,116"/>
+<area shape="rect" id="Node000005" href="$Logger_8hpp.html" title="Platform&#45;agnostic logging bridge to plog." alt="" coords="271,167,417,192"/>
+<area shape="poly" id="edge4_Node000003_Node000005" title=" " alt="" coords="347,119,347,153,341,153,341,119"/>
+<area shape="rect" id="Node000010" title=" " alt="" coords="441,240,565,265"/>
+<area shape="poly" id="edge10_Node000003_Node000010" title=" " alt="" coords="365,117,397,138,431,165,462,197,488,227,484,231,458,200,428,169,394,142,362,121"/>
+<area shape="rect" id="Node000011" title=" " alt="" coords="492,167,551,192"/>
+<area shape="poly" id="edge11_Node000003_Node000011" title=" " alt="" coords="373,116,481,159,479,164,372,121"/>
+<area shape="rect" id="Node000012" title=" " alt="" coords="575,167,643,192"/>
+<area shape="poly" id="edge13_Node000003_Node000012" title=" " alt="" coords="387,116,563,163,561,168,386,121"/>
+<area shape="rect" id="Node000006" title=" " alt="" coords="5,240,115,265"/>
+<area shape="poly" id="edge5_Node000005_Node000006" title=" " alt="" coords="299,195,120,239,118,234,298,189"/>
+<area shape="rect" id="Node000007" title=" " alt="" coords="139,240,250,265"/>
+<area shape="poly" id="edge6_Node000005_Node000007" title=" " alt="" coords="321,194,233,236,230,232,319,190"/>
+<area shape="rect" id="Node000008" title=" " alt="" coords="275,240,331,265"/>
+<area shape="poly" id="edge7_Node000005_Node000008" title=" " alt="" coords="339,194,319,229,314,227,335,191"/>
+<area shape="rect" id="Node000009" title=" " alt="" coords="355,240,416,265"/>
+<area shape="poly" id="edge8_Node000005_Node000009" title=" " alt="" coords="353,191,374,227,369,229,349,194"/>
+<area shape="poly" id="edge9_Node000005_Node000010" title=" " alt="" coords="371,190,465,232,463,237,368,194"/>
+</map>

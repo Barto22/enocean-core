@@ -1,0 +1,5 @@
+<map id="PlatformCore::Semaphore::~Semaphore" name="PlatformCore::Semaphore::~Semaphore">
+<area shape="rect" id="Node000001" title="Destroys the POSIX semaphore and releases resources." alt="" coords="5,13,196,53"/>
+<area shape="rect" id="Node000002" href="$classPlatformCore_1_1ISemaphore.html#ac42893a9dbab0c645105c1f9414c3011" title="Check if semaphore is initialized." alt="" coords="244,5,447,60"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="196,30,230,30,230,35,196,35"/>
+</map>

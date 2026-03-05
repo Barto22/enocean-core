@@ -1,0 +1,5 @@
+<map id="Boards::Watchdog::WatchdogDriver::init_impl" name="Boards::Watchdog::WatchdogDriver::init_impl">
+<area shape="rect" id="Node000001" title="Initialize the Zephyr watchdog timer with specified timeout." alt="" coords="5,5,216,45"/>
+<area shape="rect" id="Node000002" href="$classErrorHandler.html#aa170486801afc70fb85e9b39eded6709" title="Constructs an ErrorHandler with a success value." alt="" coords="264,13,459,38"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="216,23,250,23,250,28,216,28"/>
+</map>

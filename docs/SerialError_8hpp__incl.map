@@ -1,0 +1,26 @@
+<map id="boards/common/iserial/SerialError.hpp" name="boards/common/iserial/SerialError.hpp">
+<area shape="rect" id="Node000001" title="Error codes for serial/UART operations." alt="" coords="403,5,573,45"/>
+<area shape="rect" id="Node000002" href="$ErrorHandler_8hpp.html" title="A monadic error handling wrapper for safety&#45;critical applications." alt="" coords="377,93,599,119"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="491,46,491,79,485,79,485,46"/>
+<area shape="rect" id="Node000003" title=" " alt="" coords="164,167,247,192"/>
+<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="443,121,261,167,260,162,442,116"/>
+<area shape="rect" id="Node000004" href="$Logger_8hpp.html" title="Platform&#45;agnostic logging bridge to plog." alt="" coords="271,167,417,192"/>
+<area shape="poly" id="edge3_Node000002_Node000004" title=" " alt="" coords="466,121,381,163,379,158,464,116"/>
+<area shape="rect" id="Node000009" title=" " alt="" coords="441,240,565,265"/>
+<area shape="poly" id="edge9_Node000002_Node000009" title=" " alt="" coords="488,119,482,152,483,192,494,227,489,228,477,192,477,152,482,118"/>
+<area shape="rect" id="Node000010" title=" " alt="" coords="492,167,551,192"/>
+<area shape="poly" id="edge10_Node000002_Node000010" title=" " alt="" coords="496,118,513,153,508,155,491,120"/>
+<area shape="rect" id="Node000011" title=" " alt="" coords="575,167,673,192"/>
+<area shape="poly" id="edge11_Node000002_Node000011" title=" " alt="" coords="511,116,591,158,589,163,509,121"/>
+<area shape="rect" id="Node000012" title=" " alt="" coords="697,167,765,192"/>
+<area shape="poly" id="edge12_Node000002_Node000012" title=" " alt="" coords="528,116,684,162,682,167,526,121"/>
+<area shape="rect" id="Node000005" title=" " alt="" coords="5,240,115,265"/>
+<area shape="poly" id="edge4_Node000004_Node000005" title=" " alt="" coords="299,195,120,239,118,234,298,189"/>
+<area shape="rect" id="Node000006" title=" " alt="" coords="139,240,250,265"/>
+<area shape="poly" id="edge5_Node000004_Node000006" title=" " alt="" coords="321,194,233,236,230,232,319,190"/>
+<area shape="rect" id="Node000007" title=" " alt="" coords="275,240,331,265"/>
+<area shape="poly" id="edge6_Node000004_Node000007" title=" " alt="" coords="339,194,319,229,314,227,335,191"/>
+<area shape="rect" id="Node000008" title=" " alt="" coords="355,240,416,265"/>
+<area shape="poly" id="edge7_Node000004_Node000008" title=" " alt="" coords="353,191,374,227,369,229,349,194"/>
+<area shape="poly" id="edge8_Node000004_Node000009" title=" " alt="" coords="371,190,465,232,463,237,368,194"/>
+</map>

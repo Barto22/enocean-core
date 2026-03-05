@@ -1,0 +1,12 @@
+<map id="platform/posix_core/sleep/Sleep.hpp" name="platform/posix_core/sleep/Sleep.hpp">
+<area shape="rect" id="Node000001" title="POSIX sleep implementation for platform timing abstraction." alt="" coords="11,5,163,45"/>
+<area shape="rect" id="Node000002" title=" " alt="" coords="5,167,72,192"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="83,47,49,154,44,153,78,45"/>
+<area shape="rect" id="Node000003" href="$ISleep_8hpp.html" title="Platform&#45;agnostic timing/sleep interface for cross&#45;platform projects." alt="" coords="87,93,177,119"/>
+<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="100,44,121,80,116,83,95,47"/>
+<area shape="poly" id="edge4_Node000003_Node000002" title=" " alt="" coords="119,121,66,160,63,156,115,117"/>
+<area shape="rect" id="Node000004" title=" " alt="" coords="96,167,176,192"/>
+<area shape="poly" id="edge3_Node000003_Node000004" title=" " alt="" coords="135,119,137,153,132,153,130,119"/>
+<area shape="rect" id="Node000005" title=" " alt="" coords="201,167,293,192"/>
+<area shape="poly" id="edge5_Node000003_Node000005" title=" " alt="" coords="152,116,218,157,215,162,149,121"/>
+</map>

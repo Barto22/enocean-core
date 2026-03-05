@@ -1,0 +1,5 @@
+<map id="Boards::Gpio::GpioDriver::do_set_mode" name="Boards::Gpio::GpioDriver::do_set_mode">
+<area shape="rect" id="Node000001" title="Set the mode of a GPIO pin." alt="" coords="5,5,188,45"/>
+<area shape="rect" id="Node000002" href="$classErrorHandler.html#aa170486801afc70fb85e9b39eded6709" title="Constructs an ErrorHandler with a success value." alt="" coords="236,13,431,38"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="188,23,222,23,222,28,188,28"/>
+</map>

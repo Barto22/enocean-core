@@ -1,0 +1,11 @@
+<map id="platform/common/isemaphore/ISemaphore.hpp" name="platform/common/isemaphore/ISemaphore.hpp">
+<area shape="rect" id="Node000001" title="Platform&#45;agnostic semaphore interface for cross&#45;platform synchronization." alt="" coords="113,5,333,45"/>
+<area shape="rect" id="Node000002" href="$posix__core_2semaphore_2Semaphore_8hpp.html" title="POSIX semaphore implementation for platform semaphore abstraction." alt="" coords="5,93,211,133"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="188,56,135,95,132,91,185,52"/>
+<area shape="rect" id="Node000004" href="$zephyr__core_2semaphore_2Semaphore_8hpp.html" title="Zephyr RTOS semaphore implementation for platform semaphore abstraction." alt="" coords="235,93,440,133"/>
+<area shape="poly" id="edge3_Node000001_Node000004" title=" " alt="" coords="261,52,314,91,310,95,257,56"/>
+<area shape="rect" id="Node000003" href="$posix__core_2semaphore_2Semaphore_8cpp_source.html" title=" " alt="" coords="6,181,210,221"/>
+<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="111,147,111,181,105,181,105,147"/>
+<area shape="rect" id="Node000005" href="$zephyr__core_2semaphore_2Semaphore_8cpp_source.html" title=" " alt="" coords="235,181,439,221"/>
+<area shape="poly" id="edge4_Node000004_Node000005" title=" " alt="" coords="340,147,340,181,335,181,335,147"/>
+</map>

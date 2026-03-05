@@ -1,0 +1,7 @@
+<map id="platform/common/imessage_queue/IMessageQueue.hpp" name="platform/common/imessage_queue/IMessageQueue.hpp">
+<area shape="rect" id="Node000001" title="CRTP&#45;based message queue interface for platform&#45;agnostic message passing." alt="" coords="178,5,385,45"/>
+<area shape="rect" id="Node000002" href="$posix__core_2message__queue_2MessageQueue_8hpp.html" title="POSIX implementation of the message queue interface using POSIX message queues." alt="" coords="5,93,269,133"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="239,55,170,96,168,91,237,50"/>
+<area shape="rect" id="Node000003" href="$zephyr__core_2message__queue_2MessageQueue_8hpp.html" title="Zephyr RTOS implementation of the message queue interface using Zephyr message queues." alt="" coords="293,93,557,133"/>
+<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="326,50,395,91,392,96,323,55"/>
+</map>

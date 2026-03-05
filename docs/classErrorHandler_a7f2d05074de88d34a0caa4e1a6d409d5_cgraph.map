@@ -1,0 +1,6 @@
+<map id="ErrorHandler::operator bool" name="ErrorHandler::operator bool">
+<area shape="rect" id="Node000001" title="Checks whether the ErrorHandler contains a value (conversion operator)." alt="" coords="5,29,204,55"/>
+<area shape="rect" id="Node000002" href="$classErrorHandler.html#ab6ada4c89c0e82005e29441b32ee8c8c" title="Checks whether the ErrorHandler contains a value." alt="" coords="252,29,431,55"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="204,39,238,39,238,45,204,45"/>
+<area shape="poly" id="edge2_Node000002_Node000002" title=" " alt="" coords="303,31,295,21,299,11,315,5,341,3,374,7,387,16,384,20,372,11,341,8,316,10,303,15,300,20,307,27"/>
+</map>

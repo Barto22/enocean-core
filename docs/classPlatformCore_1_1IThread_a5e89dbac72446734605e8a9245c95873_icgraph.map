@@ -1,0 +1,9 @@
+<map id="PlatformCore::IThread::set_thread_info" name="PlatformCore::IThread::set_thread_info">
+<area shape="rect" id="Node000001" title="Set both stack information and thread priority." alt="" coords="408,37,573,77"/>
+<area shape="rect" id="Node000002" href="$classPlatformCore_1_1IThread.html#ab5c9e423588dcafb491bbfc9ac27fe6c" title="Create and start the thread without params." alt="" coords="195,5,360,45"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="394,46,360,40,361,35,395,40"/>
+<area shape="rect" id="Node000003" href="$classPlatformCore_1_1IThread.html#a9f37e11f4710ad1e1823d1837439ac3b" title="Create and start the thread." alt="" coords="195,69,360,109"/>
+<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="395,74,361,80,360,74,394,69"/>
+<area shape="rect" id="Node000004" href="$classBle_1_1Scanner.html#ac12eab76b89ef11ded86dda9a62a74b4" title="Start passive BLE scanning." alt="" coords="5,69,147,109"/>
+<area shape="poly" id="edge3_Node000003_Node000004" title=" " alt="" coords="181,92,147,92,147,87,181,87"/>
+</map>

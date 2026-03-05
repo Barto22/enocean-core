@@ -1,0 +1,40 @@
+<map id="boards/common/iserial/ISerial.hpp" name="boards/common/iserial/ISerial.hpp">
+<area shape="rect" id="Node000001" title="Serial abstraction interface and concept for cross&#45;platform hardware drivers." alt="" coords="241,5,411,45"/>
+<area shape="rect" id="Node000002" title=" " alt="" coords="5,93,68,119"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="257,48,82,95,80,90,256,43"/>
+<area shape="rect" id="Node000003" title=" " alt="" coords="93,93,173,119"/>
+<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="281,48,175,91,173,86,279,43"/>
+<area shape="rect" id="Node000004" title=" " alt="" coords="197,93,268,119"/>
+<area shape="poly" id="edge3_Node000001_Node000004" title=" " alt="" coords="305,48,259,86,256,82,302,44"/>
+<area shape="rect" id="Node000005" title=" " alt="" coords="293,93,359,119"/>
+<area shape="poly" id="edge4_Node000001_Node000005" title=" " alt="" coords="329,46,329,79,323,79,323,46"/>
+<area shape="rect" id="Node000006" title=" " alt="" coords="383,93,437,119"/>
+<area shape="poly" id="edge5_Node000001_Node000006" title=" " alt="" coords="348,44,389,82,386,86,345,48"/>
+<area shape="rect" id="Node000007" title=" " alt="" coords="461,93,521,119"/>
+<area shape="poly" id="edge6_Node000001_Node000007" title=" " alt="" coords="367,43,456,85,454,90,364,48"/>
+<area shape="rect" id="Node000008" href="$SerialError_8hpp.html" title="Error codes for serial/UART operations." alt="" coords="546,93,663,119"/>
+<area shape="poly" id="edge7_Node000001_Node000008" title=" " alt="" coords="393,43,551,87,550,92,392,48"/>
+<area shape="rect" id="Node000009" href="$ErrorHandler_8hpp.html" title="A monadic error handling wrapper for safety&#45;critical applications." alt="" coords="493,167,716,192"/>
+<area shape="poly" id="edge8_Node000008_Node000009" title=" " alt="" coords="607,119,607,153,602,153,602,119"/>
+<area shape="rect" id="Node000010" title=" " alt="" coords="281,240,363,265"/>
+<area shape="poly" id="edge9_Node000009_Node000010" title=" " alt="" coords="560,195,377,240,376,235,559,189"/>
+<area shape="rect" id="Node000011" href="$Logger_8hpp.html" title="Platform&#45;agnostic logging bridge to plog." alt="" coords="388,240,533,265"/>
+<area shape="poly" id="edge10_Node000009_Node000011" title=" " alt="" coords="583,194,498,236,495,231,580,190"/>
+<area shape="rect" id="Node000016" title=" " alt="" coords="557,313,681,339"/>
+<area shape="poly" id="edge16_Node000009_Node000016" title=" " alt="" coords="604,193,599,225,599,265,610,300,605,302,594,266,593,225,599,192"/>
+<area shape="rect" id="Node000017" title=" " alt="" coords="609,240,667,265"/>
+<area shape="poly" id="edge17_Node000009_Node000017" title=" " alt="" coords="613,191,629,227,624,229,608,193"/>
+<area shape="rect" id="Node000018" title=" " alt="" coords="692,240,789,265"/>
+<area shape="poly" id="edge18_Node000009_Node000018" title=" " alt="" coords="628,190,708,231,705,236,625,194"/>
+<area shape="rect" id="Node000019" title=" " alt="" coords="813,240,881,265"/>
+<area shape="poly" id="edge19_Node000009_Node000019" title=" " alt="" coords="644,189,801,235,799,240,643,195"/>
+<area shape="rect" id="Node000012" title=" " alt="" coords="122,313,231,339"/>
+<area shape="poly" id="edge11_Node000011_Node000012" title=" " alt="" coords="416,268,236,313,235,307,414,263"/>
+<area shape="rect" id="Node000013" title=" " alt="" coords="256,313,367,339"/>
+<area shape="poly" id="edge12_Node000011_Node000013" title=" " alt="" coords="438,268,349,310,347,305,436,263"/>
+<area shape="rect" id="Node000014" title=" " alt="" coords="391,313,447,339"/>
+<area shape="poly" id="edge13_Node000011_Node000014" title=" " alt="" coords="456,267,435,303,431,300,452,264"/>
+<area shape="rect" id="Node000015" title=" " alt="" coords="471,313,533,339"/>
+<area shape="poly" id="edge14_Node000011_Node000015" title=" " alt="" coords="470,264,491,300,486,303,465,267"/>
+<area shape="poly" id="edge15_Node000011_Node000016" title=" " alt="" coords="487,263,582,305,580,310,485,268"/>
+</map>

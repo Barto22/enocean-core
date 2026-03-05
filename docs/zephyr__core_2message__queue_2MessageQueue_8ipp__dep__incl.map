@@ -1,0 +1,5 @@
+<map id="platform/zephyr_core/message_queue/MessageQueue.ipp" name="platform/zephyr_core/message_queue/MessageQueue.ipp">
+<area shape="rect" id="Node000001" title="Zephyr MessageQueue&lt;T&gt; template method definitions." alt="" coords="7,5,267,45"/>
+<area shape="rect" id="Node000002" href="$zephyr__core_2message__queue_2MessageQueue_8hpp.html" title="Zephyr RTOS implementation of the message queue interface using Zephyr message queues." alt="" coords="5,93,269,133"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="140,59,140,93,135,93,135,59"/>
+</map>

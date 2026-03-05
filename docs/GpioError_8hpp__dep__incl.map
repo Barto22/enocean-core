@@ -1,0 +1,15 @@
+<map id="boards/common/igpio/GpioError.hpp" name="boards/common/igpio/GpioError.hpp">
+<area shape="rect" id="Node000001" title="Error handling types for GPIO operations." alt="" coords="122,5,285,45"/>
+<area shape="rect" id="Node000002" href="$IGpio_8hpp.html" title="GPIO abstraction interface and concept for cross&#45;platform hardware drivers." alt="" coords="122,93,285,133"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="206,59,206,93,201,93,201,59"/>
+<area shape="rect" id="Node000003" href="$posix_2gpio_2Gpio_8hpp.html" title="POSIX GPIO driver implementation for digital I/O abstraction." alt="" coords="5,189,204,214"/>
+<area shape="poly" id="edge6_Node000001_Node000003" title=" " alt="" coords="152,54,130,72,112,95,104,119,101,145,105,188,100,189,96,145,99,118,108,92,126,69,149,50"/>
+<area shape="rect" id="Node000005" href="$zephyr_2gpio_2Gpio_8hpp.html" title="Zephyr GPIO driver implementation for digital I/O abstraction." alt="" coords="238,181,385,221"/>
+<area shape="poly" id="edge7_Node000001_Node000005" title=" " alt="" coords="257,51,280,69,299,92,309,115,314,139,316,181,310,181,309,139,304,116,294,95,276,73,253,55"/>
+<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="173,145,120,190,117,186,169,141"/>
+<area shape="poly" id="edge4_Node000002_Node000005" title=" " alt="" coords="240,140,289,179,286,183,236,144"/>
+<area shape="rect" id="Node000004" href="$posix_2gpio_2Gpio_8cpp_source.html" title=" " alt="" coords="5,277,204,302"/>
+<area shape="poly" id="edge3_Node000003_Node000004" title=" " alt="" coords="107,228,107,276,102,276,102,228"/>
+<area shape="rect" id="Node000006" href="$zephyr_2gpio_2Gpio_8cpp_source.html" title=" " alt="" coords="238,269,385,309"/>
+<area shape="poly" id="edge5_Node000005_Node000006" title=" " alt="" coords="314,235,314,269,309,269,309,235"/>
+</map>

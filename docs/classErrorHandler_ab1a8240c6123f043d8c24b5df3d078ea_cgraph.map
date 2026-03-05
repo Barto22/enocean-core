@@ -1,0 +1,5 @@
+<map id="ErrorHandler::value_or" name="ErrorHandler::value_or">
+<area shape="rect" id="Node000001" title="Returns the value if present, otherwise returns default value (const lvalue)." alt="" coords="5,5,173,31"/>
+<area shape="rect" id="Node000002" href="$classErrorHandler.html#aa170486801afc70fb85e9b39eded6709" title="Constructs an ErrorHandler with a success value." alt="" coords="221,5,416,31"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="174,15,208,15,208,21,174,21"/>
+</map>

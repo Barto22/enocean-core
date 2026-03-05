@@ -1,0 +1,47 @@
+<map id="application/AppEntry.hpp" name="application/AppEntry.hpp">
+<area shape="rect" id="Node000001" title="Application entry point thread runner for platform&#45;agnostic logic." alt="" coords="166,5,349,31"/>
+<area shape="rect" id="Node000002" title=" " alt="" coords="5,152,72,177"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="241,33,69,147,66,142,238,29"/>
+<area shape="rect" id="Node000003" href="$IThread_8hpp.html" title="Platform&#45;agnostic thread abstraction interfaces for cross&#45;platform projects." alt="" coords="379,79,477,104"/>
+<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="286,28,389,71,387,76,284,33"/>
+<area shape="poly" id="edge6_Node000003_Node000002" title=" " alt="" coords="379,103,91,155,86,156,85,150,90,149,378,98"/>
+<area shape="rect" id="Node000004" title=" " alt="" coords="760,372,816,397"/>
+<area shape="poly" id="edge3_Node000003_Node000004" title=" " alt="" coords="478,93,707,113,816,129,853,139,874,150,889,176,894,205,889,235,878,265,845,321,811,363,806,360,841,318,874,263,884,234,888,205,884,178,870,154,851,144,815,134,706,118,477,98"/>
+<area shape="rect" id="Node000005" title=" " alt="" coords="397,152,459,177"/>
+<area shape="poly" id="edge4_Node000003_Node000005" title=" " alt="" coords="431,104,431,138,425,138,425,104"/>
+<area shape="rect" id="Node000006" title=" " alt="" coords="484,152,564,177"/>
+<area shape="poly" id="edge5_Node000003_Node000006" title=" " alt="" coords="445,102,499,141,496,146,442,106"/>
+<area shape="rect" id="Node000007" title=" " alt="" coords="588,152,655,177"/>
+<area shape="poly" id="edge7_Node000003_Node000007" title=" " alt="" coords="460,102,578,145,576,150,458,107"/>
+<area shape="rect" id="Node000008" title=" " alt="" coords="679,152,743,177"/>
+<area shape="poly" id="edge8_Node000003_Node000008" title=" " alt="" coords="475,101,666,149,664,154,474,107"/>
+<area shape="rect" id="Node000009" title=" " alt="" coords="78,299,175,324"/>
+<area shape="poly" id="edge9_Node000003_Node000009" title=" " alt="" coords="378,94,333,98,282,107,230,125,207,138,186,154,162,184,146,219,136,255,131,285,126,285,131,254,141,217,157,181,182,150,204,133,228,120,280,102,332,92,378,89"/>
+<area shape="rect" id="Node000010" title=" " alt="" coords="767,152,859,177"/>
+<area shape="poly" id="edge10_Node000003_Node000010" title=" " alt="" coords="478,99,754,149,753,154,477,104"/>
+<area shape="rect" id="Node000011" title=" " alt="" coords="610,299,678,324"/>
+<area shape="poly" id="edge11_Node000003_Node000011" title=" " alt="" coords="416,106,402,121,389,139,382,158,386,176,399,191,420,206,477,238,600,291,598,296,474,243,417,211,396,195,382,179,377,158,384,136,397,118,412,103"/>
+<area shape="rect" id="Node000012" href="$ThreadError_8hpp.html" title="Error handling types for thread operations." alt="" coords="196,152,321,177"/>
+<area shape="poly" id="edge12_Node000003_Node000012" title=" " alt="" coords="402,106,300,149,298,144,400,102"/>
+<area shape="poly" id="edge13_Node000012_Node000009" title=" " alt="" coords="243,180,215,200,186,227,162,258,142,288,138,285,157,255,182,224,212,196,240,175"/>
+<area shape="rect" id="Node000013" href="$ErrorHandler_8hpp.html" title="A monadic error handling wrapper for safety&#45;critical applications." alt="" coords="197,225,419,251"/>
+<area shape="poly" id="edge14_Node000012_Node000013" title=" " alt="" coords="269,176,294,213,290,216,265,179"/>
+<area shape="poly" id="edge24_Node000013_Node000009" title=" " alt="" coords="280,253,170,296,168,291,278,248"/>
+<area shape="poly" id="edge25_Node000013_Node000011" title=" " alt="" coords="368,248,597,296,596,301,367,253"/>
+<area shape="rect" id="Node000014" title=" " alt="" coords="251,299,333,324"/>
+<area shape="poly" id="edge15_Node000013_Node000014" title=" " alt="" coords="308,252,300,286,295,285,303,250"/>
+<area shape="rect" id="Node000015" href="$Logger_8hpp.html" title="Platform&#45;agnostic logging bridge to plog." alt="" coords="441,299,586,324"/>
+<area shape="poly" id="edge16_Node000013_Node000015" title=" " alt="" coords="342,248,468,292,466,297,340,253"/>
+<area shape="rect" id="Node000019" title=" " alt="" coords="175,372,299,397"/>
+<area shape="poly" id="edge22_Node000013_Node000019" title=" " alt="" coords="288,253,262,272,241,300,234,329,235,358,230,358,229,329,236,298,258,269,285,249"/>
+<area shape="rect" id="Node000020" title=" " alt="" coords="357,299,416,324"/>
+<area shape="poly" id="edge23_Node000013_Node000020" title=" " alt="" coords="322,249,366,288,362,291,319,253"/>
+<area shape="poly" id="edge19_Node000015_Node000004" title=" " alt="" coords="558,321,747,370,746,375,557,327"/>
+<area shape="rect" id="Node000016" title=" " alt="" coords="568,372,677,397"/>
+<area shape="poly" id="edge17_Node000015_Node000016" title=" " alt="" coords="532,322,595,362,592,367,529,326"/>
+<area shape="rect" id="Node000017" title=" " alt="" coords="347,372,458,397"/>
+<area shape="poly" id="edge18_Node000015_Node000017" title=" " alt="" coords="497,326,434,367,431,362,494,322"/>
+<area shape="rect" id="Node000018" title=" " alt="" coords="483,372,544,397"/>
+<area shape="poly" id="edge20_Node000015_Node000018" title=" " alt="" coords="516,324,516,358,511,358,511,324"/>
+<area shape="poly" id="edge21_Node000015_Node000019" title=" " alt="" coords="470,327,296,371,295,366,468,321"/>
+</map>

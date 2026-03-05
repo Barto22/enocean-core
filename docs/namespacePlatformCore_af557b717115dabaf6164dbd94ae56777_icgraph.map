@@ -1,0 +1,5 @@
+<map id="PlatformCore::ThreadParamToPointer" name="PlatformCore::ThreadParamToPointer">
+<area shape="rect" id="Node000001" title="Converts stored thread parameter payload back to a pointer." alt="" coords="215,5,417,45"/>
+<area shape="rect" id="Node000002" href="$classPlatformCore_1_1Thread.html#a0dd1263638bcc6027b0e1bd6c926a7ab" title="Create and start the POSIX thread." alt="" coords="5,5,167,45"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="201,28,167,28,167,23,201,23"/>
+</map>

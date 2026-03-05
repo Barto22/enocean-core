@@ -1,0 +1,15 @@
+<map id="platform/common/isemaphore/SemaphoreError.hpp" name="platform/common/isemaphore/SemaphoreError.hpp">
+<area shape="rect" id="Node000001" title="Error handling types for semaphore operations." alt="" coords="219,5,439,45"/>
+<area shape="rect" id="Node000002" href="$ISemaphore_8hpp.html" title="Platform&#45;agnostic semaphore interface for cross&#45;platform synchronization." alt="" coords="113,93,333,133"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="297,56,248,95,245,91,293,52"/>
+<area shape="rect" id="Node000007" href="$SemaphoreTests_8cpp_source.html" title=" " alt="" coords="357,93,517,133"/>
+<area shape="poly" id="edge6_Node000001_Node000007" title=" " alt="" coords="366,52,415,91,412,95,362,56"/>
+<area shape="rect" id="Node000003" href="$posix__core_2semaphore_2Semaphore_8hpp.html" title="POSIX semaphore implementation for platform semaphore abstraction." alt="" coords="5,181,211,221"/>
+<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="188,144,135,183,132,179,185,140"/>
+<area shape="rect" id="Node000005" href="$zephyr__core_2semaphore_2Semaphore_8hpp.html" title="Zephyr RTOS semaphore implementation for platform semaphore abstraction." alt="" coords="235,181,440,221"/>
+<area shape="poly" id="edge4_Node000002_Node000005" title=" " alt="" coords="261,140,314,179,310,183,257,144"/>
+<area shape="rect" id="Node000004" href="$posix__core_2semaphore_2Semaphore_8cpp_source.html" title=" " alt="" coords="6,269,210,309"/>
+<area shape="poly" id="edge3_Node000003_Node000004" title=" " alt="" coords="111,235,111,269,105,269,105,235"/>
+<area shape="rect" id="Node000006" href="$zephyr__core_2semaphore_2Semaphore_8cpp_source.html" title=" " alt="" coords="235,269,439,309"/>
+<area shape="poly" id="edge5_Node000005_Node000006" title=" " alt="" coords="340,235,340,269,335,269,335,235"/>
+</map>
