@@ -66,6 +66,7 @@ jobs:
             <ul>
               <li><a href="docs/">API Documentation (Doxygen)</a></li>
               <li><a href="static-analysis/posix/">Static Analysis — POSIX</a></li>
+              <li><a href="test-results/posix/">Unit Test Results — POSIX</a></li>
             </ul>
           </body>
           </html>
