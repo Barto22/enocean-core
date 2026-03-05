@@ -1,0 +1,11 @@
+source "${ZEPHYR_BASE}/share/sysbuild/Kconfig"
+
+config NET_CORE_BOARD
+	string
+	default "nrf7002dk/nrf5340/cpunet" if "$(BOARD)" = "nrf7002dk"
+	default "nrf5340dk/nrf5340/cpunet" if "$(BOARD)" = "nrf5340dk"
+
+config NET_CORE_IMAGE_HCI_IPC
+	bool "Build hci_ipc image for network core"
+	default y
+	depends on NET_CORE_BOARD != ""

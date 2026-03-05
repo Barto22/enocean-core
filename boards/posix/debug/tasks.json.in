@@ -1,0 +1,48 @@
+{
+    // The version of the task configuration schema
+    "version": "2.0.0",
+    "tasks": [
+        {
+            "label": "Build Debug App",
+            "dependsOn": [
+                "Configure Debug",
+                "Build"
+            ],
+            "group": {
+                "kind": "build",
+                "isDefault": true
+            },
+            "detail": "Runs the full CMake Configure and Ninja Build sequence for the POSIX target.",
+            "problemMatcher": []
+        },
+        {
+            "label": "Configure Debug",
+            "type": "shell",
+            "command": "cmake",
+            "args": [
+                "-S",
+                "./platform/posix_core",
+                "-B",
+                "build/posix",
+                "-DCMAKE_BUILD_TYPE=Debug",
+                "-GNinja"
+            ],
+            "group": "build",
+            "problemMatcher": [],
+            "detail": "Runs CMake to configure the POSIX Debug build directory using Ninja."
+        },
+        {
+            "label": "Build",
+            "type": "shell",
+            "command": "ninja",
+            "options": {
+                "cwd": "${workspaceFolder}/build/posix"
+            },
+            "group": "build",
+            "problemMatcher": [
+                "$gcc"
+            ],
+            "detail": "Runs the Ninja build from the 'build/posix' directory."
+        }
+    ]
+}

@@ -1,0 +1,39 @@
+{
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "name": "Debug POSIX",
+            "type": "cppdbg",
+            "request": "launch",
+            "stopAtEntry": true,
+            "cwd": "${workspaceFolder}",
+            "program": "${workspaceFolder}/build/posix/app",
+            "args": [],
+            "preLaunchTask": "Build Debug App", 
+            "setupCommands": [
+                // Enable pretty printing for standard library types
+                {
+                    "text": "-enable-pretty-printing",
+                    "description": "enable pretty printing",
+                    "ignoreFailures": true
+                }
+            ],
+            // -------------------------
+            "linux": {
+                "MIMode": "gdb",
+                "externalConsole": false,
+                "miDebuggerPath": "/usr/bin/gdb"
+            },
+            "osx": {
+                "MIMode": "lldb",
+                "externalConsole": false,
+                "miDebuggerPath": "/usr/bin/lldb"
+            },
+            "windows": {
+                "MIMode": "gdb",
+                "externalConsole": true,
+                "miDebuggerPath": "C:\\MinGW\\bin\\gdb.exe"
+            }
+        }
+    ]
+}

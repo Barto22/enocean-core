@@ -1,0 +1,3 @@
+--extra-arg-before=-nostdinc++
+--extra-arg-before=-D_SYS__PTHREADTYPES_H_
+--header-filter='^(?!.*(?:/zephyr/|/zephyr/(?:zephyr/|modules/))).*'

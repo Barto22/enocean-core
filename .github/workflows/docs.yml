@@ -1,0 +1,89 @@
+name: Documentation
+
+on:
+  push:
+    branches: [main]
+  pull_request:
+    branches: [main]
+  workflow_dispatch:
+
+concurrency:
+  group: ${{ github.workflow }}-${{ github.ref }}
+  cancel-in-progress: true
+
+jobs:
+  doxygen:
+    name: Generate Doxygen Documentation
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write
+
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Install Doxygen and Graphviz
+        run: |
+          sudo apt update
+          sudo apt install -y doxygen graphviz
+
+      - name: Generate documentation
+        # Doxyfile OUTPUT_DIRECTORY = build/docs
+        # Doxygen 1.9.8 cannot create nested output directories itself.
+        run: |
+          mkdir -p build/docs
+          doxygen Doxyfile
+
+      - name: Upload documentation artifact
+        uses: actions/upload-artifact@v4
+        with:
+          name: doxygen-docs
+          path: build/docs/html/
+          retention-days: 30
+
+      - name: Create root index.html for GitHub Pages
+        if: github.event_name == 'push' && github.ref == 'refs/heads/main'
+        run: |
+          mkdir -p build/pages-root
+          cat > build/pages-root/index.html << 'EOF'
+          <!DOCTYPE html>
+          <html lang="en">
+          <head>
+            <meta charset="UTF-8">
+            <meta name="viewport" content="width=device-width, initial-scale=1.0">
+            <title>EnOcean Core</title>
+            <style>
+              body { font-family: sans-serif; max-width: 600px; margin: 60px auto; padding: 0 20px; }
+              h1 { font-size: 1.6rem; }
+              ul { list-style: none; padding: 0; }
+              li { margin: 12px 0; }
+              a { color: #0969da; text-decoration: none; font-size: 1.1rem; }
+              a:hover { text-decoration: underline; }
+            </style>
+          </head>
+          <body>
+            <h1>EnOcean Core</h1>
+            <p>Cross-platform EnOcean BLE framework (POSIX / Zephyr RTOS)</p>
+            <ul>
+              <li><a href="docs/">API Documentation (Doxygen)</a></li>
+              <li><a href="static-analysis/posix/">Static Analysis — POSIX</a></li>
+            </ul>
+          </body>
+          </html>
+          EOF
+
+      - name: Deploy root index to GitHub Pages
+        if: github.event_name == 'push' && github.ref == 'refs/heads/main'
+        uses: peaceiris/actions-gh-pages@v4
+        with:
+          github_token: ${{ secrets.GITHUB_TOKEN }}
+          publish_dir: build/pages-root/
+          keep_files: true
+
+      - name: Deploy docs to GitHub Pages
+        if: github.event_name == 'push' && github.ref == 'refs/heads/main'
+        uses: peaceiris/actions-gh-pages@v4
+        with:
+          github_token: ${{ secrets.GITHUB_TOKEN }}
+          publish_dir: build/docs/html/
+          destination_dir: docs
+          keep_files: true

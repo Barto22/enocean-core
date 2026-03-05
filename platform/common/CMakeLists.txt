@@ -1,0 +1,8 @@
+add_library(platform_core INTERFACE)
+add_subdirectory(imessage_queue)
+add_subdirectory(imutex)
+add_subdirectory(isemaphore)
+add_subdirectory(isleep)
+add_subdirectory(ithread)
+add_subdirectory(ible)
+add_subdirectory(icrypto)

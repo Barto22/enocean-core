@@ -1,0 +1,164 @@
+name: POSIX
+
+on:
+  push:
+    branches: [main]
+  pull_request:
+    branches: [main]
+  workflow_dispatch:
+
+concurrency:
+  group: ${{ github.workflow }}-${{ github.ref }}
+  cancel-in-progress: true
+
+jobs:
+  build-and-test:
+    name: Build & Unit Tests (Ubuntu)
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write
+
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Install build dependencies
+        run: |
+          sudo apt update
+          sudo apt install -y \
+            ninja-build ccache \
+            libbluetooth-dev libssl-dev bluez pkg-config \
+            gcc-14 g++-14
+          pip install "cmake>=4.0" junit2html
+
+      # ccache speeds up re-builds when sources haven't changed
+      - name: Cache ccache
+        uses: actions/cache@v4
+        with:
+          path: ~/.cache/ccache
+          key: posix-ccache-${{ runner.os }}-${{ github.sha }}
+          restore-keys: posix-ccache-${{ runner.os }}-
+
+      - name: Configure (tests enabled)
+        run: |
+          cmake -S platform/posix_core -B build/posix \
+            -GNinja \
+            -DBUILD_TESTING=ON \
+            -DCMAKE_C_COMPILER=gcc-14 \
+            -DCMAKE_CXX_COMPILER=g++-14 \
+            -DCMAKE_C_COMPILER_LAUNCHER=ccache \
+            -DCMAKE_CXX_COMPILER_LAUNCHER=ccache
+
+      - name: Build
+        run: cmake --build build/posix
+
+      - name: Run unit tests
+        id: run-tests
+        continue-on-error: true
+        run: |
+          ctest --output-on-failure \
+                --output-junit "$GITHUB_WORKSPACE/build/posix/test-results.xml" \
+                --test-dir build/posix/app_src/
+
+      - name: Generate test HTML report
+        if: always()
+        run: |
+          mkdir -p build/posix/test-results-html
+          if [ -f build/posix/test-results.xml ]; then
+            junit2html build/posix/test-results.xml \
+                       build/posix/test-results-html/index.html
+          else
+            echo "<html><body><h1>No test results (build failed)</h1></body></html>" \
+              > build/posix/test-results-html/index.html
+          fi
+
+      - name: Upload test results (artifact)
+        if: always()
+        uses: actions/upload-artifact@v4
+        with:
+          name: test-results-posix
+          path: build/posix/test-results-html/
+          retention-days: 14
+
+      - name: Deploy test results to GitHub Pages
+        if: always() && github.event_name == 'push' && github.ref == 'refs/heads/main'
+        uses: peaceiris/actions-gh-pages@v4
+        with:
+          github_token: ${{ secrets.GITHUB_TOKEN }}
+          publish_dir: build/posix/test-results-html/
+          destination_dir: test-results/posix
+          keep_files: true
+
+      - name: Upload POSIX executable
+        run: cp build/posix/app build/posix/enocean-core-linux-x86_64
+      - uses: actions/upload-artifact@v4
+        with:
+          name: enocean-core-linux-x86_64
+          path: build/posix/enocean-core-linux-x86_64
+          retention-days: 14
+
+      - name: Fail if tests failed
+        if: steps.run-tests.outcome == 'failure'
+        run: exit 1
+  static-analysis:
+    name: Static Analysis – CodeChecker (POSIX)
+    runs-on: ubuntu-latest
+    # Required to push the HTML report to the gh-pages branch
+    permissions:
+      contents: write
+
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Install build + analysis dependencies
+        run: |
+          sudo apt update
+          sudo apt install -y \
+            ninja-build ccache \
+            libbluetooth-dev libssl-dev bluez pkg-config \
+            cppcheck python3-pip
+          wget -qO llvm.sh https://apt.llvm.org/llvm.sh
+          sudo bash llvm.sh 20
+          sudo apt-get install -y clang-tidy-20 libc++-20-dev libc++abi-20-dev
+          pip install "cmake>=4.0" codechecker
+
+      - name: Cache ccache
+        uses: actions/cache@v4
+        with:
+          path: ~/.cache/ccache
+          key: posix-sa-ccache-${{ runner.os }}-${{ github.sha }}
+          restore-keys: posix-sa-ccache-${{ runner.os }}-
+
+      - name: Configure (compile_commands.json required by CodeChecker)
+        run: |
+          cmake -S platform/posix_core -B build/posix \
+            -GNinja \
+            -DCMAKE_C_COMPILER=clang-20 \
+            -DCMAKE_CXX_COMPILER=clang++-20 \
+            -DCMAKE_CXX_FLAGS="-stdlib=libc++" \
+            -DCMAKE_EXE_LINKER_FLAGS="-stdlib=libc++" \
+            -DCMAKE_C_COMPILER_LAUNCHER=ccache \
+            -DCMAKE_CXX_COMPILER_LAUNCHER=ccache
+
+      - name: Build (generates compile_commands.json)
+        run: cmake --build build/posix
+      - name: Run CodeChecker analysis
+        run: cd build/posix && ninja codechecker_analyse
+
+      - name: Upload HTML analysis report (artifact)
+        if: always()
+        uses: actions/upload-artifact@v4
+        with:
+          name: static-analysis-posix-report
+          path: build/posix/reports_html/
+          retention-days: 14
+
+      - name: Deploy analysis report to GitHub Pages
+        if: always() && github.event_name == 'push' && github.ref == 'refs/heads/main'
+        uses: peaceiris/actions-gh-pages@v4
+        with:
+          github_token: ${{ secrets.GITHUB_TOKEN }}
+          publish_dir: build/posix/reports_html/
+          destination_dir: static-analysis/posix
+          # keep_files prevents this job from wiping other subdirectories
+          # (e.g. docs/ or static-analysis/zephyr/) on the gh-pages branch
+          keep_files: true

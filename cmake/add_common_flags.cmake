@@ -1,0 +1,117 @@
+include(CheckCXXCompilerFlag)
+
+function(add_common_flags)
+  add_compile_options(
+    -g # always build debug symbols
+    # optimization options
+    -fdata-sections
+    -ffunction-sections
+    -fomit-frame-pointer
+    -fmerge-all-constants
+    # -funsafe-math-optimizations # Enables -fno-signed-zeros,
+    # -fno-trapping-math, -fassociative-math and -freciprocal-math
+    -fno-signed-zeros # Allow optimizations for floating-point arithmetic that
+                      # ignore the signedness of zero
+    -fno-trapping-math # Compile code assuming that floating-point operations
+                       # cannot generate user-visible traps
+    # -fassociative-math      # Allow re-association of operands in series of
+    # floating-point operations
+    -freciprocal-math # Allow the reciprocal of a value to be used instead of
+                      # dividing by the value if this enables optimizations
+    -fno-math-errno # Do not set errno after calling math functions that are
+                    # executed with a single instruction, e.g., sqrt
+    -fno-strict-aliasing
+    # visibility
+    -fvisibility=hidden
+    -fstack-usage
+    # Warnings
+    -Wall
+    -Wextra
+    -Werror
+    -Warray-bounds
+    # -Wcast-align
+    -Wdisabled-optimization
+    -Wdouble-promotion
+    -Wfatal-errors
+    -Wfloat-equal
+    -Wformat-security
+    -Winit-self
+    -Wlogical-op
+    -Wpointer-arith
+    -Wshadow
+    -Wuninitialized
+    -Wunknown-pragmas
+    -Wunused-variable
+    # disabled warnings
+    -Wno-missing-field-initializers
+    -Wno-unused-parameter)
+
+  # compiler specific flags
+  if(("${CMAKE_CXX_COMPILER_ID}" MATCHES "Clang") OR ("${CMAKE_CXX_COMPILER_ID}"
+                                                      MATCHES "AppleClang"))
+
+    add_compile_options(
+      -fcolor-diagnostics # force color for clang (needed for clang + ccache)
+      -fdiagnostics-absolute-paths # force absolute paths
+      -Qunused-arguments
+      -Wno-c99-designator
+      -Wno-unknown-warning-option
+      -Wno-unused-const-variable
+      -Wno-varargs)
+
+  elseif("${CMAKE_CXX_COMPILER_ID}" STREQUAL "GNU")
+
+    if(CMAKE_CXX_COMPILER_VERSION VERSION_GREATER 4.9)
+      # force color for gcc > 4.9
+      add_compile_options(-fdiagnostics-color=always)
+    endif()
+
+    if(CMAKE_CXX_COMPILER_VERSION VERSION_GREATER 9.3)
+      add_compile_options(-Wno-stringop-truncation)
+    endif()
+
+    if(CMAKE_CXX_COMPILER_VERSION VERSION_GREATER 14.1)
+      if(CMAKE_BUILD_TYPE STREQUAL "Release" OR CMAKE_BUILD_TYPE STREQUAL
+                                                "RelWithDebInfo")
+        check_cxx_compiler_flag("-fhardened" COMPILER_SUPPORTS_FHARDENED)
+        if(COMPILER_SUPPORTS_FHARDENED)
+          add_compile_options(-fhardened -Whardened)
+        endif()
+      endif()
+    endif()
+
+    add_compile_options(-fno-builtin-printf -fno-strength-reduce -Wformat=1
+                        -Wunused-but-set-variable)
+
+    # -fcheck-new is a no-op for Clang in general and has no effect, but can
+    # generate a compile error for some OS
+    add_compile_options($<$<COMPILE_LANGUAGE:CXX>:-fcheck-new>)
+
+  elseif("${CMAKE_CXX_COMPILER_ID}" STREQUAL "Intel")
+    message(FATAL_ERROR "Intel compiler not yet supported")
+  elseif("${CMAKE_CXX_COMPILER_ID}" STREQUAL "MSVC")
+    message(FATAL_ERROR "MS compiler not yet supported")
+  endif()
+
+  # C only flags
+  set(c_flags)
+  list(APPEND c_flags -fno-common
+       # -Wnested-externs
+       -Wstrict-prototypes)
+  foreach(flag ${c_flags})
+    add_compile_options($<$<COMPILE_LANGUAGE:C>:${flag}>)
+  endforeach()
+
+  # CXX only flags
+  set(cxx_flags)
+  list(APPEND cxx_flags -Wreorder)
+
+  if(NOT CMAKE_BUILD_TYPE STREQUAL FuzzTesting)
+    list(APPEND cxx_flags -fno-rtti)
+  endif()
+
+  foreach(flag ${cxx_flags})
+    add_compile_options($<$<COMPILE_LANGUAGE:CXX>:${flag}>)
+  endforeach()
+
+endfunction()

@@ -1,0 +1,11 @@
+source "Kconfig.zephyr"
+
+rsource "usb_common/Kconfig.common_usbd"
+
+menu "Zephyr Core Configuration"
+
+module = MAIN
+module-str = main
+source "subsys/logging/Kconfig.template.log_config"
+
+endmenu

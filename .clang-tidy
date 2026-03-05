@@ -1,0 +1,2 @@
+Checks: "bugprone-*,modernize-*"
+HeaderFilterRegex: '.*enocean-core.*'

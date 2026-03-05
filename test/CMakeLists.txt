@@ -1,0 +1,6 @@
+add_subdirectory(error_handler_test)
+add_subdirectory(message_queue_test)
+add_subdirectory(mutex_test)
+add_subdirectory(semaphore_test)
+add_subdirectory(thread_test)
+add_subdirectory(enocean_driver_test)

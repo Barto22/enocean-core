@@ -1,0 +1,15 @@
+{
+    "analyze": [
+        "--enable",
+        "sensitive",
+        "--enable",
+        "profile:security",
+        "--enable",
+        "profile:portability",
+        "--ctu",
+        "-i",
+        "skip.codecheck",
+        "--analyzer-config",
+        "clang-tidy:cc-verbatim-args-file=clang_tidy_args.txt"
+    ]
+}

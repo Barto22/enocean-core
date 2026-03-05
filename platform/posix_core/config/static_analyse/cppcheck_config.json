@@ -1,0 +1,15 @@
+{
+    "analyze": [
+        "--analyzers=cppcheck",
+        "--enable",
+        "sensitive",
+        "--enable",
+        "profile:security",
+        "--enable",
+        "profile:portability",
+        "-i",
+        "skip.codecheck",
+        "--analyzer-config",
+        "cppcheck:addons=misra_addon.json"
+    ]
+}

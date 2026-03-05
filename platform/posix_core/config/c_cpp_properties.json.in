@@ -1,0 +1,15 @@
+{
+    "configurations": [
+        {
+            "name": "Template",
+            "includePath": [
+                "${default}",
+                "${workspaceFolder}/**"
+            ],
+            "cppStandard": "c++23",
+            "cStandard": "c11",
+            "compileCommands": "${workspaceFolder}/build/posix/compile_commands.json"
+        }
+    ],
+    "version": 4
+}

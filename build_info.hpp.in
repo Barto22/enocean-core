@@ -1,0 +1,8 @@
+#pragma once
+
+namespace build_info {
+
+inline constexpr const char* build_time = "@BUILD_TIME@";
+inline constexpr const char* git_commit = "@GIT_COMMIT_HASH@";
+
+}  // namespace build_info
